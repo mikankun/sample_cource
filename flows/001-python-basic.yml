@@ -54,20 +54,22 @@ pages:
       Result:
 
       {{ render_notebook_cells("ipynbs/Python-basic-3.ipynb") }}
-
 -
-    type: TextQuestion
-    id: neumann
-    value: 5
+    type: ChoiceQuestion
+    id: krylov
+    value: 2
     prompt: |
 
-      # Neumann series
+      # Krylov-space methods
 
-      What's $\operatorname{Id} + A + A^2 +A^3+\cdots$?
+      What form of a matrix is produced by Arnoldi iteration?
 
-    answers:
+    choices:
 
-      - <sym_expr>1/(1-A)
+      - ~CORRECT~ Upper Hessenberg form
+      - Diagonal
+      - Schur form
+      - Tridiagonal form
 
 completion_text: |
 
