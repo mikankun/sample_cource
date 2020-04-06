@@ -22,7 +22,7 @@ question: |
 
     
 
-    [[blank0]]!
+    [[blank0]]:
 
     $~~~~$print(f2)
 
@@ -42,5 +42,5 @@ answers:
         width: 19em
         required: True
         correct_answer:
-        - <plain> while f2 < 10000:
+        - <plain> while f2 < 10000
 
