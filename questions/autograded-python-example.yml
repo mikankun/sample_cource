@@ -34,6 +34,8 @@ test_code: |
     else:
         feedback.finish(0, "Your computed c was incorrect.")
 
+show_setup_code: True
+
 correct_code: |
 
     c = a + b
