@@ -14,7 +14,7 @@ question: |
 
     index2 = index1 + 6
 
-    print([[blank0]])
+    print([[blank0]] )
 
 
 answers:

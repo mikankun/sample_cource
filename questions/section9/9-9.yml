@@ -32,7 +32,7 @@ question: |
 
     $~~~~$def print_vars(self):
 
-    $~~~~$$~~~~$[[blank0]]
+    $~~~~$$~~~~$[[blank0]] 
 
     $~~~~$$~~~~$print(self.grade)
 

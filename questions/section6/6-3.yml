@@ -10,7 +10,7 @@ question: |
 
     　# 商品名と値段を表示する関数を作成
 
-    [[blank0]]:
+    [[blank0]] :
 
     $~~~~$for product, price in args.items():
 

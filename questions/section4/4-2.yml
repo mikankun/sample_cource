@@ -14,7 +14,7 @@ question: |
 
     　# 1か2なら正解とする
 
-    if num1 == 1 [[blank0]] num1 ==2:
+    if num1 == 1 [[blank0]]  num1 ==2:
 
     $~~~~$print('正解です')
 

@@ -12,7 +12,7 @@ question: |
 
     $~~~~$# コンストラクタ
 
-    $~~~~$[[blank0]]:
+    $~~~~$[[blank0]] :
 
     $~~~~$$~~~~$self.name = name
 
@@ -22,13 +22,13 @@ question: |
 
     $~~~~$# メソッド定義
 
-    $~~~~$[[blank1]]:
+    $~~~~$[[blank1]] :
 
     $~~~~$$~~~~$return self.name
 
     $~~~~$
 
-    $~~~~$[[blank2]]:
+    $~~~~$[[blank2]] :
 
     $~~~~$$~~~~$return self.age
 
@@ -36,7 +36,7 @@ question: |
 
     　# インスタンス生成
 
-    taro = [[blank3]]('taro', 6)
+    taro = [[blank3]] ('taro', 6)
 
     　# メソッド呼出し
 

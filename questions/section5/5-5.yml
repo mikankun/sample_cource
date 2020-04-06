@@ -10,7 +10,7 @@ question: |
 
     　## 20から30までの整数リストを作る。
 
-    list1 = [i [[blank0]]]
+    list1 = [i [[blank0]] ]
 
     
 

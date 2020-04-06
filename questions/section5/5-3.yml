@@ -14,41 +14,41 @@ question: |
 
     　##または
 
-    list1.[[blank0]]
+    list1.[[blank0]] 
 
     
 
     　#リスト中の値で指定
 
-    list1.[[blank1]]
+    list1.[[blank1]] 
 
     
 
     　#辞書のキーで指定
 
-    [[blank2]] dict1['idx1']
+    [[blank2]]  dict1['idx1']
 
     　##または
 
-    dict1.[[blank3]]('idx1')
+    dict1.[[blank3]] ('idx1')
 
     
 
     　#辞書の中身を全部削除
 
-    dict1.[[blank4]]()
+    dict1.[[blank4]] ()
 
     
 
     　#セットの要素を削除
 
-    set1.[[blank5]](3)
+    set1.[[blank5]] (3)
 
     
 
     　#セットの全部の要素を削除
 
-    set1.[[blank6]]()
+    set1.[[blank6]] ()
 
     
 

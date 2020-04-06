@@ -10,7 +10,7 @@ question: |
 
     str1 = 'Java入門'
 
-    print([[blank0]])
+    print([[blank0]] )
 
     
 

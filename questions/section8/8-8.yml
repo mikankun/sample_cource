@@ -10,7 +10,7 @@ question: |
 
     　# csv モジュール読込み
 
-    [[blank0]]
+    [[blank0]] 
 
     
 
@@ -30,19 +30,19 @@ question: |
 
     with open('sample.csv', 'w') as f:
 
-    $~~~~$writer = [[blank1]]
+    $~~~~$writer = [[blank1]] 
 
     $~~~~$
 
     $~~~~$# 最初の行に項目名を書き込む
 
-    $~~~~$[[blank2]](['品名', '単価', '数量'])
+    $~~~~$[[blank2]] (['品名', '単価', '数量'])
 
     $~~~~$$~~~~$
 
     $~~~~$# 2行目以降に products の内容書込み
 
-    $~~~~$[[blank3]]
+    $~~~~$[[blank3]] 
 
     
 

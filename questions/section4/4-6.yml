@@ -10,7 +10,7 @@ question: |
 
     　# 10回繰り返す
 
-    for i in [[blank0]]:
+    for i in [[blank0]] :
 
     $~~~~$print(i+1, '回')
 

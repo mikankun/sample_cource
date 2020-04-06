@@ -10,7 +10,7 @@ question: |
 
     　# 10以上99以下なら正解とする
 
-    if [[blank0]]:
+    if [[blank0]] :
 
     $~~~~$print('正解です')
 

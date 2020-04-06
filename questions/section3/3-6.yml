@@ -10,9 +10,9 @@ question: |
 
     str1 = 'わー'
 
-    str2 = [[blank0]]
+    str2 = [[blank0]] 
 
-    str2 [[blank1]] 'きゃー'
+    str2 [[blank1]]  'きゃー'
 
     print(str2)
 

@@ -14,7 +14,7 @@ question: |
 
     if age > 20:
 
-    $~~~~$[[blank0]]
+    $~~~~$[[blank0]] 
 
     else:
 

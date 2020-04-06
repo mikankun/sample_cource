@@ -14,7 +14,7 @@ question: |
 
     　# キーでループ
 
-    for [[blank0]]:
+    for [[blank0]] :
 
     $~~~~$print(key, dict1[key])
 
@@ -22,7 +22,7 @@ question: |
 
     　# 値でループ
 
-    for [[blank1]]:
+    for [[blank1]] :
 
     $~~~~$print(value)
 
@@ -30,7 +30,7 @@ question: |
 
     　# キーと値でループ
 
-    for [[blank2]]:
+    for [[blank2]] :
 
     $~~~~$print(key, value)
 

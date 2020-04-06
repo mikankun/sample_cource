@@ -14,7 +14,7 @@ question: |
 
     　# fruetes の内容を順に出力する
 
-    for [[blank0]]:
+    for [[blank0]] :
 
     $~~~~$print(f)
 
@@ -22,7 +22,7 @@ question: |
 
     　# fruetes の内容を逆順に出力する
 
-    for [[blank1]]:
+    for [[blank1]] :
 
     $~~~~$print(f)
 
@@ -30,7 +30,7 @@ question: |
 
     　# fruetes の内容をインデックスと同時に出力する
 
-    for [[blank2]]:
+    for [[blank2]] :
 
     $~~~~$print(i, f)
 

@@ -10,19 +10,19 @@ question: |
 
     　#リストの末尾に追加
 
-    list1.[[blank0]](1)
+    list1.[[blank0]] (1)
 
     
 
     　#リストの途中に追加
 
-    list1.[[blank1]](1, 'a')
+    list1.[[blank1]] (1, 'a')
 
     
 
     　#セットに追加
 
-    set1.[[blank2]](3)
+    set1.[[blank2]] (3)
 
     
 

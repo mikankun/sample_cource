@@ -10,11 +10,11 @@ question: |
 
     print(1 + 2)
 
-    [[blank0]]
+    [[blank0]] 
 
     print(1.0 + 2)
 
-    [[blank1]]
+    [[blank1]] 
 
     
 

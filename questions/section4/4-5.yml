@@ -22,7 +22,7 @@ question: |
 
     
 
-    [[blank0]]:
+    [[blank0]] :
 
     $~~~~$print(f2)
 

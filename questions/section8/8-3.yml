@@ -12,7 +12,7 @@ question: |
 
     with open('file1', 'r') as f:
 
-    $~~~~$[[blank0]]
+    $~~~~$[[blank0]] 
 
     $~~~~$print(contents)
 

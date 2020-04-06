@@ -8,9 +8,9 @@ prompt: |
 
 question: |
 
-    [[blank0]] = 10
+    [[blank0]]  = 10
 
-    [[blank1]] = 10
+    [[blank1]]  = 10
 
     print('2つの数の和は',num1 + num2,'です。')
 

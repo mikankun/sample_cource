@@ -10,7 +10,7 @@ question: |
 
     　# ファイルの新規書込みオープン
 
-    f = open('file1', [[blank0]])
+    f = open('file1', [[blank0]] )
 
     f.close()
 
@@ -18,7 +18,7 @@ question: |
 
     　# ファイルの追加書込みオープン
 
-    f = open('file1', [[blank1]])
+    f = open('file1', [[blank1]] )
 
     f.close()
 
@@ -26,7 +26,7 @@ question: |
 
     　# ファイルの読込オープン
 
-    f = open('file1', [[blank2]])
+    f = open('file1', [[blank2]] )
 
     f.close()
 

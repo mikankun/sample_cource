@@ -8,9 +8,9 @@ prompt: |
 
 question: |
 
-    [[blank0]] = 3.1415926
+    [[blank0]]  = 3.1415926
 
-    print('円周率は',[[blank1]],'です。')
+    print('円周率は',[[blank1]] ,'です。')
 
     
 

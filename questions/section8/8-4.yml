@@ -12,13 +12,13 @@ question: |
 
     with open('file1', 'r') as f:
 
-    $~~~~$line = [[blank0]]
+    $~~~~$line = [[blank0]] 
 
     $~~~~$while line:
 
     $~~~~$$~~~~$print(line)
 
-    $~~~~$$~~~~$line = [[blank1]]  # 上の空欄と同じものが入ります
+    $~~~~$$~~~~$line = [[blank1]]   # 上の空欄と同じものが入ります
 
     
 

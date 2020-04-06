@@ -10,7 +10,7 @@ question: |
 
     　# csv モジュール読込み
 
-    [[blank0]]
+    [[blank0]] 
 
     
 
@@ -18,7 +18,7 @@ question: |
 
     with open('sample.csv', 'r') as f:
 
-    $~~~~$[[blank1]]:
+    $~~~~$[[blank1]] :
 
     $~~~~$$~~~~$print(line)
 

@@ -10,7 +10,7 @@ question: |
 
     str1 = 'This is a pen.'
 
-    print(str1, 'の長さは, [[blank0]], 'です')
+    print(str1, 'の長さは, [[blank0]] , 'です')
 
     
 

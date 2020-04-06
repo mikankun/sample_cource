@@ -14,7 +14,7 @@ question: |
 
     list = [3, 5, 8, 1, 9]
 
-    list.[[blank0]]
+    list.[[blank0]] 
 
     print(list)
 

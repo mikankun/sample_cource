@@ -12,7 +12,7 @@ question: |
 
     $~~~~$# メソッド定義
 
-    $~~~~$[[blank0]]:
+    $~~~~$[[blank0]] :
 
     $~~~~$$~~~~$print(msg)
 
@@ -20,7 +20,7 @@ question: |
 
     　# インスタンス生成
 
-    [[blank1]]
+    [[blank1]] 
 
     taro.say('Hello!')
 

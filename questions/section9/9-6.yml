@@ -12,9 +12,9 @@ question: |
 
     $~~~~$# スタティックメソッド定義
 
-    $~~~~$[[blank0]]
+    $~~~~$[[blank0]] 
 
-    $~~~~$[[blank1]]:
+    $~~~~$[[blank1]] :
 
     $~~~~$$~~~~$print('Static sample')
 

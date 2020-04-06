@@ -8,13 +8,13 @@ prompt: |
 
 question: |
 
-    print ([[blank0]]これは
+    print ([[blank0]] これは
 
     　複数行にわたる
 
     　文字列
 
-    です。[[blank1]])
+    です。[[blank1]] )
 
     
 

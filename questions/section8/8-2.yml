@@ -10,7 +10,7 @@ question: |
 
     　# close しなくてもいいように 'file1' を上書きopenする
 
-    [[blank0]]:
+    [[blank0]] :
 
     $~~~~$f.write('abc')
 
