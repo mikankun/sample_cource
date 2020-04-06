@@ -151,6 +151,11 @@ groups:
         {{ indented_include("questions/python-complex-validation-test-code.yml", 8) }}
     -
         {{ indented_include("questions/non-ascii-choices.yml", 8) }}
+
+-
+    id: quiz_new_add
+    shuffle: False
+    pages:
     -
         {{ indented_include("questions/section3/3-1.yml", 8) }}
     -
