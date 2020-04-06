@@ -12,16 +12,15 @@ question: |4
     
     if [[blank0]]:
     
-    　　print(num1, 'は負の数です。')
+    $~~~~$print(num1, 'は負の数です。')
     
     [[blank1]] [[blank2]]:
     
-    　　print(num1, 'は正の数です。')
+    $~~~~$print(num1, 'は正の数です。')
     
-    else$    $:
+    else$~~~~$:
     
-    print(num1, 'は0です。')
-    $$\|a\|^2 +\|b\|^2=\|a + b\|^2$$    
+    $~~~~$print(num1, 'は0です。')
 
 answers:
 
