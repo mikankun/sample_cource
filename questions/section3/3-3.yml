@@ -1,0 +1,37 @@
+type: InlineMultiQuestion
+id: test_3_3
+value: 10
+prompt: |
+
+    # 演習問題 3_3
+    何が出力されますか？
+
+question: |
+
+    print(1 + 2)
+
+    [[blank0]]
+
+    print(1.0 + 2)
+
+    [[blank1]]
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> 3
+
+    blank1:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> 3.0
+

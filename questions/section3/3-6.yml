@@ -1,0 +1,37 @@
+type: InlineMultiQuestion
+id: test_3_6
+value: 10
+prompt: |
+
+    # 演習問題 3_6
+    'わーわーわーきゃー'と出力してください
+
+question: |
+
+    str1 = 'わー'
+
+    str2 = [[blank0]]
+
+    str2 [[blank1]] 'きゃー'
+
+    print(str2)
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 16em
+        required: True
+        correct_answer:
+        - <plain> str1 * 3
+
+    blank1:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> +=
+

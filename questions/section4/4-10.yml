@@ -1,0 +1,69 @@
+type: InlineMultiQuestion
+id: test_4_10
+value: 10
+prompt: |
+
+    # 演習問題 4_10
+    下記の指示通りに表示するプログラムを作成してください。
+    
+    1~60までの数字で、3で割り切れる数字の場合は、「Fizz」を表示する。
+    5で割り切れる数字の場合は、「Buzz」を表示する。
+    3と5で割り切れる数値の場合は、「Fizz Buzz」を表示する。
+    上記以外の場合は、そのままの数字を表示する。
+    
+    期待する実行結果
+    1
+    2
+    Fizz
+    4
+    Buzz
+    Fizz
+    7
+    8
+    Fizz
+    Buzz
+    11
+    Fizz
+    13
+    14
+    Fizz Buzz
+    16
+    17
+    Fizz
+    19
+    .
+    .
+    58
+    59
+    Fizz Buzz
+    
+    (解答)
+    # rangeを使用する解答例
+    for num in range(1, 61): 
+    $~~~~$if num % 3 == 0 and num % 5 == 0:
+    $~~~~$$~~~~$print("Fizz Buzz")
+    $~~~~$elif num % 3 == 0:
+    $~~~~$$~~~~$print("Fizz")
+    $~~~~$elif num % 5 == 0:
+    $~~~~$$~~~~$print("Buzz")
+    $~~~~$else:
+    $~~~~$$~~~~$print(num)
+    
+    # whileを使用する解答例
+    num2 = 1
+    while num2 < 61: 
+    $~~~~$if num2 % 3 == 0 and num2 % 5 == 0:
+    $~~~~$$~~~~$print("Fizz Buzz")
+    $~~~~$elif num2 % 3 == 0:
+    $~~~~$$~~~~$print("Fizz")
+    $~~~~$elif num2 % 5 == 0:
+    $~~~~$$~~~~$print("Buzz")
+    $~~~~$else:
+    $~~~~$$~~~~$print(num2)
+    $~~~~$num2 += 1
+
+question: |
+
+
+answers:
+

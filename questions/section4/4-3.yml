@@ -1,0 +1,34 @@
+type: InlineMultiQuestion
+id: test_4_3
+value: 10
+prompt: |
+
+    # 演習問題 4_3
+    空欄をうめてください。
+
+question: |
+
+    # 10以上99以下なら正解とする
+
+    if [[blank0]]!:
+
+    $~~~~$print('正解です')
+
+    else:
+
+    $~~~~$print('不正解です')
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 32em
+        required: True
+        correct_answer:
+        - <plain> 10 <= num1 <= 99
+

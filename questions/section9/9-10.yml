@@ -1,0 +1,45 @@
+type: InlineMultiQuestion
+id: test_9_10
+value: 10
+prompt: |
+
+    # 演習問題 9_10
+    クラス「Book」を作成し、コンストラクタでtitleをセットします。
+    「書籍名は●●です」と表示するメソッド「printTitle」をBookに作成します。
+    
+    関数「printBook」内で引数に「吾輩は猫である」を指定したBookインスタンス、引数に「銀河鉄道の夜」を指定したBookインスタンス、引数に「雪国」を指定したBookインスタンスをそれぞれ作成し、リスト「bookList」に格納します。
+    bookListに格納したbookのprintTitleメソッドを呼び出し、結果を表示するプログラムを作成してください。
+    
+    期待される結果
+    書籍名は 吾輩は猫である
+    書籍名は 銀河鉄道の夜
+    書籍名は 雪国
+    
+    （解答）
+    class Book:
+    $~~~~$def __init__(self, title):
+    $~~~~$$~~~~$self.title = title
+    $~~~~$def printTitle(self):
+    $~~~~$$~~~~$print ('書籍名は', self.title)
+    $~~~~$$~~~~$
+    def printBook():
+    $~~~~$bookList = []
+    $~~~~$book1 = Book('吾輩は猫である')
+    $~~~~$book2 = Book('銀河鉄道の夜')
+    $~~~~$book3 = Book('雪国')
+    $~~~~$
+    $~~~~$bookList.append(book1)
+    $~~~~$bookList.append(book2)
+    $~~~~$bookList.append(book3)
+    $~~~~$
+    $~~~~$for bk in bookList:
+    $~~~~$$~~~~$bk.printTitle()
+    
+    printBook()
+    
+
+question: |
+
+
+answers:
+

@@ -1,0 +1,28 @@
+type: InlineMultiQuestion
+id: test_5_5
+value: 10
+prompt: |
+
+    # 演習問題 5_5
+    空欄をうめてください。
+
+question: |
+
+    ## 20から30までの整数リストを作る。
+
+    list1 = [i [[blank0]]!]
+
+    
+
+    print(list1)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 44em
+        required: True
+        correct_answer:
+        - <plain> for i in range(20, 31)
+

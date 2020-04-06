@@ -1,0 +1,40 @@
+type: InlineMultiQuestion
+id: test_9_7
+value: 10
+prompt: |
+
+    # 演習問題 9_7
+    空欄をうめてください。
+
+question: |
+
+    # スーパークラス
+
+    class Person:
+
+    $~~~~$def __init__(self, name, age):
+
+    $~~~~$$~~~~$self.name = name
+
+    $~~~~$$~~~~$self.age = age
+
+    
+
+    # サブクラス
+
+    class Student[[blank0]]!:
+
+    $~~~~$def get_grade(self):
+
+    $~~~~$$~~~~$print(self.grade)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 16em
+        required: True
+        correct_answer:
+        - <plain> (Person)
+

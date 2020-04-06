@@ -1,0 +1,32 @@
+type: InlineMultiQuestion
+id: test_4_7
+value: 10
+prompt: |
+
+    # 演習問題 4_7
+    空欄をうめてください。
+
+question: |
+
+    # 偶数を10個出力
+
+    for i in [[blank0]]!:
+
+    $~~~~$print(i)
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 26em
+        required: True
+        correct_answer:
+        - <plain> range(0,20,2)
+

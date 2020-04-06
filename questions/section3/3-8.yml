@@ -1,0 +1,26 @@
+type: InlineMultiQuestion
+id: test_3_8
+value: 10
+prompt: |
+
+    # 演習問題 3_8
+    空欄をうめてください。
+
+question: |
+
+    str1 = 'This is a pen.'
+
+    print(str1, 'の長さは, [[blank0]]!, 'です')
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 18em
+        required: True
+        correct_answer:
+        - <plain> len(str1)
+

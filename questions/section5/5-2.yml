@@ -1,0 +1,54 @@
+type: InlineMultiQuestion
+id: test_5_2
+value: 10
+prompt: |
+
+    # 演習問題 5_2
+    値を追加する構文です。空欄をうめてください。
+
+question: |
+
+    リストの末尾に追加
+
+    list1.[[blank0]](1)
+
+    
+
+    リストの途中に追加
+
+    list1.[[blank1]](1, 'a')
+
+    
+
+    セットに追加
+
+    set1.[[blank2]](3)
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 12em
+        required: True
+        correct_answer:
+        - <plain> append
+
+    blank1:
+        type: ShortAnswer
+        width: 12em
+        required: True
+        correct_answer:
+        - <plain> insert
+
+    blank2:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> add
+

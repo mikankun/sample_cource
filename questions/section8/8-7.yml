@@ -1,0 +1,45 @@
+type: InlineMultiQuestion
+id: test_8_7
+value: 10
+prompt: |
+
+    # 演習問題 8_7
+    空欄をうめてください。
+
+question: |
+
+    # csv モジュール読込み
+
+    [[blank0]]
+
+    
+
+    # CSVファイルを一行づつ読込み
+
+    with open('sample.csv', 'r') as f:
+
+    $~~~~$[[blank1]]
+
+    $~~~~$$~~~~$print(line)
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 20em
+        required: True
+        correct_answer:
+        - <plain> import csv
+
+    blank1:
+        type: ShortAnswer
+        width: 52em
+        required: True
+        correct_answer:
+        - <plain> for line in csv.reader(f):
+

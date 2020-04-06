@@ -1,0 +1,43 @@
+type: InlineMultiQuestion
+id: test_9_4
+value: 10
+prompt: |
+
+    # 演習問題 9_4
+    空欄をうめてください。
+
+question: |
+
+    class Person:
+
+    $~~~~$# メソッド定義
+
+    $~~~~$[[blank0]]
+
+    $~~~~$$~~~~$print(msg)
+
+    
+
+    # インスタンス生成
+
+    [[blank1]]
+
+    taro.say('Hello!')
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 38em
+        required: True
+        correct_answer:
+        - <plain> def say(self, msg):
+
+    blank1:
+        type: ShortAnswer
+        width: 30em
+        required: True
+        correct_answer:
+        - <plain> taro = Person()
+

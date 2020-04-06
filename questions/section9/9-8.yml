@@ -1,0 +1,48 @@
+type: InlineMultiQuestion
+id: test_9_8
+value: 10
+prompt: |
+
+    # 演習問題 9_8
+    空欄をうめてください。
+
+question: |
+
+    # スーパークラス
+
+    class Person:
+
+    $~~~~$def __init__(self, name, age):
+
+    $~~~~$$~~~~$self.name = name
+
+    $~~~~$$~~~~$self.age = age
+
+    
+
+    # サブクラス
+
+    class Student(Person):
+
+    $~~~~$def __init__(self, name, age, grade):
+
+    $~~~~$$~~~~$# スーパークラスのコンストラクタ呼出し
+
+    $~~~~$$~~~~$[[blank0]]!
+
+    	# サブクラス独自の処理
+
+    $~~~~$$~~~~$self.grade = grade
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 54em
+        required: True
+        correct_answer:
+        - <plain> super().__init__(name, age)
+

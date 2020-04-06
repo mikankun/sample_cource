@@ -1,0 +1,48 @@
+type: InlineMultiQuestion
+id: test_6_4
+value: 10
+prompt: |
+
+    # 演習問題 6_4
+    空欄をうめてください。
+
+question: |
+
+    # デコレータ関数の定義
+
+    def decolater_func(arg_func):
+
+    $~~~~$def add_func(*args):
+
+    $~~~~$$~~~~$print('start')
+
+    $~~~~$$~~~~$arg_func(*args)
+
+    $~~~~$$~~~~$print("end")	
+
+    $~~~~$return add_func
+
+    
+
+    [[blank0]]!
+
+    # デコレートする関数
+
+    def main_func(x):
+
+    $~~~~$print("メイン処理の実行",x)
+
+    
+
+    main_func(10)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 30em
+        required: True
+        correct_answer:
+        - <plain> @decolater_func
+

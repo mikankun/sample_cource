@@ -1,0 +1,38 @@
+type: InlineMultiQuestion
+id: test_4_2
+value: 10
+prompt: |
+
+    # 演習問題 4_2
+    空欄をうめてください
+
+question: |
+
+    num1 = int(input('数字を入れてください:'))
+
+    
+
+    # 1か2なら正解とする
+
+    if num1 == 1 [[blank0]]! num1 ==2:
+
+    $~~~~$print('正解です')
+
+    else:
+
+    $~~~~$print('不正解です')
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> or
+

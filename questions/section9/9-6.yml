@@ -1,0 +1,45 @@
+type: InlineMultiQuestion
+id: test_9_6
+value: 10
+prompt: |
+
+    # 演習問題 9_6
+    空欄をうめてください。
+
+question: |
+
+    class SampleClass2:
+
+    $~~~~$# スタティックメソッド定義
+
+    $~~~~$[[blank0]]
+
+    $~~~~$[[blank1]]
+
+    $~~~~$$~~~~$print('Static sample')
+
+    
+
+    # クラスメソッド呼出し
+
+    SampleClass2.sample_static()
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 26em
+        required: True
+        correct_answer:
+        - <plain> @staticmethod
+
+    blank1:
+        type: ShortAnswer
+        width: 40em
+        required: True
+        correct_answer:
+        - <plain> def sample_static():
+

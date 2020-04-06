@@ -1,0 +1,30 @@
+type: InlineMultiQuestion
+id: test_6_1
+value: 10
+prompt: |
+
+    # 演習問題 6_1
+    空欄をうめてください。
+
+question: |
+
+    # 文字列を逆にして連結する関数を作成
+
+    [[blank0]]!
+
+    $~~~~$return str1[::-1] + str2[::-1]
+
+    
+
+    print(revcat('abc', '123'))
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 46em
+        required: True
+        correct_answer:
+        - <plain> def revcat(str1, str2):
+

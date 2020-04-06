@@ -1,0 +1,32 @@
+type: InlineMultiQuestion
+id: test_4_6
+value: 10
+prompt: |
+
+    # 演習問題 4_6
+    空欄をうめてください。
+
+question: |
+
+    # 10回繰り返す
+
+    for i in [[blank0]]:
+
+    $~~~~$print(i+1, '回')
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 18em
+        required: True
+        correct_answer:
+        - <plain> range(10)
+

@@ -1,0 +1,46 @@
+type: InlineMultiQuestion
+id: test_8_10
+value: 10
+prompt: |
+
+    # 演習問題 8_10
+    リスト('子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥')を作成し、リストの内容を反映したファイルを「zodiact.txt」のファイル名で出力し、出力したファイルを読み込んでリストで表示するプログラムを作成しなさい。
+    ※ファイルに出力した要素は要素ごとに改行すること。
+    ※ファイルの内容を読み込むと、改行コードも付いてくるので、String.strip()で改行は除去すること。
+    
+    期待される結果
+    
+    ファイル入出力
+    ファイルを出力しました。
+    ファイルの内容を読み込みます。
+    ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥']
+    
+    （解答）
+    zodiact_file = 'zodiact.txt'
+    print('ファイル入出力')
+    zodiact = ['子','丑','寅','卯','辰','巳','午','未','申','酉','戌','亥']
+    
+    # ファイル出力
+    with open(zodiact_file, 'w') as f:
+    $~~~~$for zdt in zodiact:
+    $~~~~$$~~~~$f.write(zdt + '\n')
+    
+    print('ファイルを出力しました。')
+    
+    # ファイル入力
+    print('ファイルの内容を読み込みます。')
+    
+    with open(zodiact_file, 'r') as f:
+    $~~~~$lines = f.readlines()
+    
+    zodiact2 = []
+    for line in lines:
+    $~~~~$zodiact2.append(line.strip())
+    
+    print(zodiact2)
+
+question: |
+
+
+answers:
+

@@ -1,0 +1,28 @@
+type: InlineMultiQuestion
+id: test_3_10
+value: 10
+prompt: |
+
+    # 演習問題 3_10
+    'Hello,Python world' の P から 6 文字を取り出してください。
+
+question: |
+
+    str1 = 'Hello,Python world'
+
+    index1 = str1.find('P')
+
+    index2 = index1 + 6
+
+    print([[blank0]])
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 38em
+        required: True
+        correct_answer:
+        - <plain> str1[index1:index2]
+

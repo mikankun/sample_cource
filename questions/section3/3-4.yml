@@ -1,0 +1,33 @@
+type: InlineMultiQuestion
+id: test_3_4
+value: 10
+prompt: |
+
+    # 演習問題 3_4
+    定数を作ってください
+
+question: |
+
+    [[blank0]] = 3.1415926
+
+    print('円周率は',[[blank1]],'です。')
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> PI
+
+    blank1:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> PI
+

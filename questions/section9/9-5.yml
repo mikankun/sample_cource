@@ -1,0 +1,63 @@
+type: InlineMultiQuestion
+id: test_9_5
+value: 10
+prompt: |
+
+    # 演習問題 9_5
+    空欄をうめてください。
+
+question: |
+
+    class SampleClass:
+
+    $~~~~$name = ''
+
+    $~~~~$# コンストラクタ
+
+    $~~~~$def __init__(self, name):
+
+    $~~~~$$~~~~$SampleClass.name = name
+
+    $~~~~$
+
+    $~~~~$# クラスメソッド定義
+
+    $~~~~$[[blank0]]
+
+    $~~~~$[[blank1]]
+
+    $~~~~$$~~~~$print(cls)
+
+    $~~~~$$~~~~$print(cls.name)
+
+    
+
+    # インスタンスからクラスメソッド呼出し
+
+    sample_class = SampleClass('BEN')
+
+    sample_class.print_class_name()
+
+    
+
+    # クラス名からクラスメソッド呼出し
+
+    SampleClass.print_class_name()
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> @classmethod
+
+    blank1:
+        type: ShortAnswer
+        width: 52em
+        required: True
+        correct_answer:
+        - <plain> def print_class_name(cls):
+

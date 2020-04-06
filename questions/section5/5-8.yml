@@ -1,0 +1,82 @@
+type: InlineMultiQuestion
+id: test_5_8
+value: 10
+prompt: |
+
+    # 演習問題 5_8
+    空欄をうめてください。
+
+question: |
+
+    a = [1,2,3,4,5,6,7]
+
+    
+
+    # 2番目〜3番目の要素を出力
+
+    print([[blank0]])
+
+    
+
+    # 2番目から最後の要素まで出力
+
+    print([[blank1]])
+
+    
+
+    # 最初から2番目まで出力
+
+    print([[blank2]])
+
+    
+
+    # 最後から2番目の要素を出力
+
+    print([[blank3]])
+
+    
+
+    # 2番目から6までの要素を、2つおきに出力
+
+    print([[blank4]])
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 12em
+        required: True
+        correct_answer:
+        - <plain> a[1:3]
+
+    blank1:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> a[1:]
+
+    blank2:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> a[:2]
+
+    blank3:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> a[-3]
+
+    blank4:
+        type: ShortAnswer
+        width: 16em
+        required: True
+        correct_answer:
+        - <plain> a[1:6:2]
+

@@ -1,0 +1,40 @@
+type: InlineMultiQuestion
+id: test_4_4
+value: 10
+prompt: |
+
+    # 演習問題 4_4
+    空欄をうめてください
+
+question: |
+
+    age = int(input('何歳ですか？:'))
+
+    
+
+    if age > 20:
+
+    $~~~~$[[blank0]]!
+
+    else:
+
+    $~~~~$print('未成年者お断り')
+
+    
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 8em
+        required: True
+        correct_answer:
+        - <plain> pass
+

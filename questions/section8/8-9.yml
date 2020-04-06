@@ -1,0 +1,62 @@
+type: InlineMultiQuestion
+id: test_8_9
+value: 10
+prompt: |
+
+    # 演習問題 8_9
+    空欄をうめてください。
+
+question: |
+
+    # 指定したファイルがなければメッセージを出力
+
+    
+
+    [[blank0]]
+
+    $~~~~$with open('file4', 'r') as f:
+
+    $~~~~$$~~~~$lines = f.readlines()
+
+    [[blank1]]
+
+    $~~~~$# ファイルが無い時に実行
+
+    $~~~~$print('ファイルがありません')
+
+    [[blank2]]
+
+    $~~~~$# ファイルの有無にかかわらず実行
+
+    $~~~~$print('処理終了')
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> try: 
+
+    blank1:
+        type: ShortAnswer
+        width: 50em
+        required: True
+        correct_answer:
+        - <plain> except FileNotFoundError:
+
+    blank2:
+        type: ShortAnswer
+        width: 16em
+        required: True
+        correct_answer:
+        - <plain> finally:
+

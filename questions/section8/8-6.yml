@@ -1,0 +1,56 @@
+type: InlineMultiQuestion
+id: test_8_6
+value: 10
+prompt: |
+
+    # 演習問題 8_6
+    空欄をうめてください。
+
+question: |
+
+    # ファイルに一行づつ書込み
+
+    with open('file2', 'w') as f:
+
+    $~~~~$[[blank0]]('line 1\n')
+
+    $~~~~$[[blank1]]('line 2\n')
+
+    
+
+    # リストの内容をファイル書込み
+
+    list1 = ['line 3\n', 'line 4\n']
+
+    with open('file2', 'w') as f:
+
+    $~~~~$[[blank2]](list1)
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 14em
+        required: True
+        correct_answer:
+        - <plain> f.write
+
+    blank1:
+        type: ShortAnswer
+        width: 14em
+        required: True
+        correct_answer:
+        - <plain> f.write
+
+    blank2:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> f.writelines
+

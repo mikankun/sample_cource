@@ -1,0 +1,34 @@
+type: InlineMultiQuestion
+id: test_6_3
+value: 10
+prompt: |
+
+    # 演習問題 6_3
+    空欄をうめてください。
+
+question: |
+
+    # 正品名と値段を表示する関数を作成
+
+    [[blank0]]!
+
+    $~~~~$for product, price in args.items():
+
+    $~~~~$	print(product, price)
+
+    
+
+    pricelist(apple=100, orange=120, pine=500)
+
+    pricelist(rose=500, lily=300)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 44em
+        required: True
+        correct_answer:
+        - <plain> def pricelist(**args):
+

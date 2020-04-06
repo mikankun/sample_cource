@@ -1,0 +1,127 @@
+type: InlineMultiQuestion
+id: test_5_1
+value: 10
+prompt: |
+
+    # 演習問題 5_1
+    初期化の構文の空欄をうめてください。
+
+question: |
+
+    リスト
+
+    list1 = [[blank0]]1, 2, 3[[blank1]]
+
+    
+
+    タプル
+
+    tuple1 = [[blank2]]1, 2, 3[[blank3]]
+
+    
+
+    辞書
+
+    dict1 = [[blank4]]'idx1': 100, 'idx2': 200[[blank5]]
+
+    
+
+    セット
+
+    set1 = [[blank6]]1, 2, 3[[blank7]]
+
+    または
+
+    set1 = [[blank8]]1, 2, 3[[blank9]]
+
+    または
+
+    set1 = [[blank10]]1, 2, 3[[blank11]]
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> [
+
+    blank1:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> ]
+
+    blank2:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> (
+
+    blank3:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> )
+
+    blank4:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> {
+
+    blank5:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> }
+
+    blank6:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> set([
+
+    blank7:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> ])
+
+    blank8:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> set((
+
+    blank9:
+        type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> ))
+
+    blank10:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> {
+
+    blank11:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> }
+

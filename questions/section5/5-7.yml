@@ -1,0 +1,30 @@
+type: InlineMultiQuestion
+id: test_5_7
+value: 10
+prompt: |
+
+    # 演習問題 5_7
+    空欄をうめてください。
+
+question: |
+
+    # 降順にソートしてください。
+
+    
+
+    list = [3, 5, 8, 1, 9]
+
+    list.[[blank0]]!
+
+    print(list)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 36em
+        required: True
+        correct_answer:
+        - <plain> sort(reverse=True)
+

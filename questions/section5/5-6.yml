@@ -1,0 +1,30 @@
+type: InlineMultiQuestion
+id: test_5_6
+value: 10
+prompt: |
+
+    # 演習問題 5_6
+    空欄をうめてください。
+
+question: |
+
+    ## 10以下の偶数を出力する。
+
+    list1 = [i [[blank0]]!]
+
+    
+
+    for l in list1:
+
+    $~~~~$print(l)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 64em
+        required: True
+        correct_answer:
+        - <plain> for i in range(11) if i % 2 == 0
+

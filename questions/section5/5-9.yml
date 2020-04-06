@@ -1,0 +1,64 @@
+type: InlineMultiQuestion
+id: test_5_9
+value: 10
+prompt: |
+
+    # 演習問題 5_9
+    空欄をうめてください。
+
+question: |
+
+    dict1 = {'idx1': 100, 'idx2': 200}
+
+    
+
+    # キーでループ
+
+    for [[blank0]]:
+
+    $~~~~$print(key, dict1[key])
+
+    
+
+    # 値でループ
+
+    for [[blank1]]:
+
+    $~~~~$print(value)
+
+    
+
+    # キーと値でループ
+
+    for [[blank2]]:
+
+    $~~~~$print(key, value)
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> key in dict1
+
+    blank1:
+        type: ShortAnswer
+        width: 46em
+        required: True
+        correct_answer:
+        - <plain> value in dict1.values()
+
+    blank2:
+        type: ShortAnswer
+        width: 54em
+        required: True
+        correct_answer:
+        - <plain> key, value in dict1.items()
+

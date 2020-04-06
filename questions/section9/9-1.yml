@@ -1,0 +1,30 @@
+type: InlineMultiQuestion
+id: test_9_1
+value: 10
+prompt: |
+
+    # 演習問題 9_1
+    空欄をうめてください。
+
+question: |
+
+    class Student:
+
+    $~~~~$# コンストラクタ
+
+    $~~~~$[[blank0]]!
+
+    $~~~~$$~~~~$self.name = name
+
+    $~~~~$$~~~~$self.age = age
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 60em
+        required: True
+        correct_answer:
+        - <plain> def __init__(self, name, age):
+

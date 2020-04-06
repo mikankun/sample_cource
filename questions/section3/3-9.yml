@@ -1,0 +1,26 @@
+type: InlineMultiQuestion
+id: test_3_9
+value: 10
+prompt: |
+
+    # 演習問題 3_9
+    文字列の置換を使って'Python入門'と表示してください。
+
+question: |
+
+    str1 = 'Java入門'
+
+    print([[blank0]]!)
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 60em
+        required: True
+        correct_answer:
+        - <plain> str1.replace('Java', 'Python')
+

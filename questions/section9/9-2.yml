@@ -1,0 +1,79 @@
+type: InlineMultiQuestion
+id: test_9_2
+value: 10
+prompt: |
+
+    # 演習問題 9_2
+    空欄をうめてください。
+
+question: |
+
+    class Child:
+
+    $~~~~$# コンストラクタ
+
+    $~~~~$[[blank0]]
+
+    $~~~~$$~~~~$self.name = name
+
+    $~~~~$$~~~~$self.age = age
+
+    $~~~~$
+
+    $~~~~$# メソッド定義
+
+    $~~~~$[[blank1]]
+
+    $~~~~$$~~~~$return self.name
+
+    $~~~~$
+
+    $~~~~$[[blank2]]
+
+    $~~~~$$~~~~$return self.age
+
+    $~~~~$
+
+    # インスタンス生成
+
+    taro = [[blank3]]('taro', 6)
+
+    # メソッド呼出し
+
+    print(taro.getName())
+
+    print(taro.getAge())
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 60em
+        required: True
+        correct_answer:
+        - <plain> def __init__(self, name, age):
+
+    blank1:
+        type: ShortAnswer
+        width: 36em
+        required: True
+        correct_answer:
+        - <plain> def getName(self):
+
+    blank2:
+        type: ShortAnswer
+        width: 34em
+        required: True
+        correct_answer:
+        - <plain> def getAge(self):
+
+    blank3:
+        type: ShortAnswer
+        width: 10em
+        required: True
+        correct_answer:
+        - <plain> Child
+

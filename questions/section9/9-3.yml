@@ -1,0 +1,34 @@
+type: InlineMultiQuestion
+id: test_9_3
+value: 10
+prompt: |
+
+    # 演習問題 9_3
+    空欄をうめてください。
+
+question: |
+
+    class Greeting:
+
+    $~~~~$# メソッド定義
+
+    $~~~~$[[blank0]]!
+
+    $~~~~$$~~~~$print(msg)
+
+    
+
+    taro = Child('taro', 6)
+
+    taro.say('Hello!')
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 38em
+        required: True
+        correct_answer:
+        - <plain> def say(self, msg):
+

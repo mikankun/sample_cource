@@ -1,0 +1,51 @@
+type: InlineMultiQuestion
+id: test_4_9
+value: 10
+prompt: |
+
+    # 演習問題 4_9
+    空欄をうめてください。
+
+question: |
+
+    for i in range(20):
+
+    $~~~~$print(i)
+
+    $~~~~$# i が 5 の倍数の時は後の処理はしない
+
+    $~~~~$if [[blank0]]:
+
+    $~~~~$$~~~~$[[blank1]]
+
+    $~~~~$
+
+    $~~~~$print('OK')
+
+    
+
+    print('END')
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 20em
+        required: True
+        correct_answer:
+        - <plain> i % 5 == 0
+
+    blank1:
+        type: ShortAnswer
+        width: 16em
+        required: True
+        correct_answer:
+        - <plain> continue
+

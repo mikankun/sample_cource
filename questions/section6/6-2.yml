@@ -1,0 +1,38 @@
+type: InlineMultiQuestion
+id: test_6_2
+value: 10
+prompt: |
+
+    # 演習問題 6_2
+    空欄をうめてください。
+
+question: |
+
+    # 文字列を逆にして連結する関数を作成
+
+    [[blank0]]!
+
+    $~~~~$str = ''
+
+    $~~~~$for arg in args:
+
+    $~~~~$	str += arg[::-1]
+
+    $~~~~$return str
+
+    
+
+    print(revcat2('abc', '123'))
+
+    print(revcat2('abc', '123', 'XYZ'))
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 38em
+        required: True
+        correct_answer:
+        - <plain> def revcat2(*args):
+

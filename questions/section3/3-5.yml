@@ -1,0 +1,37 @@
+type: InlineMultiQuestion
+id: test_3_5
+value: 10
+prompt: |
+
+    # 演習問題 3_5
+    空欄をうめてください。
+
+question: |
+
+    print ([[blank0]]これは
+
+    複数行にわたる
+
+    文字列
+
+    です。[[blank1]])
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> '''
+
+    blank1:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> '''
+

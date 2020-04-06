@@ -1,0 +1,62 @@
+type: InlineMultiQuestion
+id: test_5_4
+value: 10
+prompt: |
+
+    # 演習問題 5_4
+    空欄をうめてください。
+
+question: |
+
+    fruetes = ['Apple', 'Orange', 'Lemon']
+
+    
+
+    # fruetes の内容を順に出力する
+
+    for [[blank0]]:
+
+    $~~~~$print(f)
+
+    
+
+    # fruetes の内容を逆順に出力する
+
+    for [[blank1]]:
+
+    $~~~~$print(f)
+
+    
+
+    # fruetes の内容をインデックスと同時に出力する
+
+    for [[blank2]]:
+
+    $~~~~$print(i, f)
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> f in fruetes
+
+    blank1:
+        type: ShortAnswer
+        width: 44em
+        required: True
+        correct_answer:
+        - <plain> f in reversed(fruetes)
+
+    blank2:
+        type: ShortAnswer
+        width: 52em
+        required: True
+        correct_answer:
+        - <plain> i, f in enumerate(fruetes)
+

@@ -1,0 +1,38 @@
+type: InlineMultiQuestion
+id: test_8_5
+value: 10
+prompt: |
+
+    # 演習問題 8_5
+    空欄をうめてください。
+
+question: |
+
+    # ファイル全体をリストにして読込み。
+
+    with open('file1', 'r') as f:
+
+    $~~~~$lines = [[blank0]]!
+
+    
+
+    for l in lines:
+
+    $~~~~$print(l)
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 26em
+        required: True
+        correct_answer:
+        - <plain> f.readlines()
+

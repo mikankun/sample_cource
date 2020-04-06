@@ -1,14 +1,15 @@
 type: InlineMultiQuestion
-id: test_id_3_1
+id: test_3_1
 value: 10
 prompt: |
 
-    # 演習問題 3-1
+    # 演習問題 3_1
     'Hello world!' と出力してください
 
 question: |
 
     print('[[blank0]]')
+
 
 answers:
 

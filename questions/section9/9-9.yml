@@ -1,0 +1,54 @@
+type: InlineMultiQuestion
+id: test_9_9
+value: 10
+prompt: |
+
+    # 演習問題 9_9
+    空欄をうめてください。
+
+question: |
+
+    # スーパークラス
+
+    class Person:
+
+    $~~~~$...$~~~~$
+
+    $~~~~$def print_vars(self):
+
+    $~~~~$$~~~~$print(self.name)
+
+    $~~~~$$~~~~$print(self.age)
+
+    
+
+    # サブクラス
+
+    class Student(Person):
+
+    $~~~~$...$~~~~$
+
+    $~~~~$# スーパークラスのprinta_varsを拡張
+
+    $~~~~$def print_vars(self):
+
+    $~~~~$$~~~~$[[blank0]]!
+
+    $~~~~$$~~~~$print(self.grade)
+
+    
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 40em
+        required: True
+        correct_answer:
+        - <plain> super().print_vars()
+

@@ -1,0 +1,26 @@
+type: InlineMultiQuestion
+id: test_3_7
+value: 10
+prompt: |
+
+    # 演習問題 3_7
+    空欄をうめてください。
+
+question: |
+
+    num1 = 10
+
+    numn2 = 20
+
+    print('2つの数の和は' + [[blank0]]! + 'です。')
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 32em
+        required: True
+        correct_answer:
+        - <plain> str(num1 + num2)
+

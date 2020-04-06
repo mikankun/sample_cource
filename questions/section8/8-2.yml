@@ -1,0 +1,26 @@
+type: InlineMultiQuestion
+id: test_8_2
+value: 10
+prompt: |
+
+    # 演習問題 8_2
+    空欄をうめてください。
+
+question: |
+
+    # close しなくてもいいように 'file1' を上書きopenする
+
+    [[blank0]]!
+
+    $~~~~$f.write('abc')
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 58em
+        required: True
+        correct_answer:
+        - <plain> with open('file1', 'w') as f:
+

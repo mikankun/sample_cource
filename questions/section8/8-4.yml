@@ -1,0 +1,51 @@
+type: InlineMultiQuestion
+id: test_8_4
+value: 10
+prompt: |
+
+    # 演習問題 8_4
+    空欄をうめてください。
+
+question: |
+
+    # ファイルを一行づつ読込み
+
+    with open('file1', 'r') as f:
+
+    $~~~~$line = [[blank0]]
+
+    $~~~~$while line:
+
+    $~~~~$$~~~~$print(line)
+
+    $~~~~$$~~~~$line = [[blank1]]  # 上の空欄と同じものが入ります
+
+    
+
+    # (参考)
+
+    # 同じ動作を for でも書けます。
+
+    with open('file1', 'r') as f:
+
+    $~~~~$for line in f:
+
+    $~~~~$$~~~~$print(line)
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> f.readline()
+
+    blank1:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> f.readline()
+

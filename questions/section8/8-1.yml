@@ -1,0 +1,58 @@
+type: InlineMultiQuestion
+id: test_8_1
+value: 10
+prompt: |
+
+    # 演習問題 8_1
+    空欄をうめてください。
+
+question: |
+
+    # ファイルの新規書込みオープン
+
+    f = open('file1', [[blank0]])
+
+    f.close()
+
+    
+
+    # ファイルの追加書込みオープン
+
+    f = open('file1', [[blank1]])
+
+    f.close()
+
+    
+
+    # ファイルの読込オープン
+
+    f = open('file1', [[blank2]])
+
+    f.close()
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> 'w'
+
+    blank1:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> 'a'
+
+    blank2:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> 'r'
+

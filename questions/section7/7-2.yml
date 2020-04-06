@@ -1,0 +1,32 @@
+type: InlineMultiQuestion
+id: test_7_2
+value: 10
+prompt: |
+
+    # 演習問題 7_2
+    空欄をうめてください。
+
+question: |
+
+    ## math モジュールのsqrt関数(平方根)を使う
+
+    [[blank0]]!
+
+    
+
+    print (sqrt(5))
+
+    
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 42em
+        required: True
+        correct_answer:
+        - <plain> from math import sqrt
+

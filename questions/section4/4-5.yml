@@ -1,0 +1,46 @@
+type: InlineMultiQuestion
+id: test_4_5
+value: 10
+prompt: |
+
+    # 演習問題 4_5
+    空欄をうめてください。
+
+question: |
+
+    # 10000より小さいフィボナッチ数列
+
+    #  ( f(n) = f(n-1) + f(n-2) )
+
+    
+
+    f0 = 0
+
+    f1 = 1
+
+    f2 = f1 + f0
+
+    
+
+    [[blank0]]!
+
+    $~~~~$print(f2)
+
+    $~~~~$f2 = f1 + f0
+
+    $~~~~$f0 = f1
+
+    $~~~~$f1 = f2
+
+    
+
+
+answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 34em
+        required: True
+        correct_answer:
+        - <plain> while f2 < 10000:
+
