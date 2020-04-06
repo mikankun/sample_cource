@@ -20,7 +20,7 @@ question: |4
     
     else:
     
-    　　print(num1, 'は0です。')
+    $$\ \ \ \ $$ print(num1, 'は0です。')
     
 
 answers:
