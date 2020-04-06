@@ -11,11 +11,11 @@ question: |+
     num1 = int(input('数字を入れてください:'))
     
     if [[blank0]]:
-        print(num1, 'は負の数です。')
+    　　print(num1, 'は負の数です。')
     [[blank1]] [[blank2]]:
-        print(num1, 'は正の数です。')
+    　　print(num1, 'は正の数です。')
     else:
-        print(num1, 'は0です。')
+    　　print(num1, 'は0です。')
     
 
 answers:
