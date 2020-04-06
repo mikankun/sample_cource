@@ -31,21 +31,21 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 16em
+        width: 9em
         required: True
         correct_answer:
         - <plain> num1 < 0
 
     blank1:
         type: ShortAnswer
-        width: 8em
+        width: 5em
         required: True
         correct_answer:
         - <plain> elif
 
     blank2:
         type: ShortAnswer
-        width: 16em
+        width: 9em
         required: True
         correct_answer:
         - <plain> num1 > 0

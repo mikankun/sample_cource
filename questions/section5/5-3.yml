@@ -61,49 +61,49 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 12em
+        width: 7em
         required: True
         correct_answer:
         - <plain> pop(1)
 
     blank1:
         type: ShortAnswer
-        width: 18em
+        width: 10em
         required: True
         correct_answer:
         - <plain> remove(0)
 
     blank2:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> del
 
     blank3:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> pop
 
     blank4:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> clear
 
     blank5:
         type: ShortAnswer
-        width: 12em
+        width: 7em
         required: True
         correct_answer:
         - <plain> remove
 
     blank6:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> clear

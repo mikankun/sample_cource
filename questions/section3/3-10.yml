@@ -21,7 +21,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 38em
+        width: 21em
         required: True
         correct_answer:
         - <plain> str1[index1:index2]

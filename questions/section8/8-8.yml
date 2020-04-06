@@ -51,28 +51,28 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 20em
+        width: 11em
         required: True
         correct_answer:
         - <plain> import csv
 
     blank1:
         type: ShortAnswer
-        width: 26em
+        width: 15em
         required: True
         correct_answer:
         - <plain> csv.writer(f)
 
     blank2:
         type: ShortAnswer
-        width: 30em
+        width: 17em
         required: True
         correct_answer:
         - <plain> writer.writerow
 
     blank3:
         type: ShortAnswer
-        width: 52em
+        width: 29em
         required: True
         correct_answer:
         - <plain> writer.writerows(products)

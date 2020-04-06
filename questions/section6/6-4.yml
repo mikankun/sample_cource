@@ -41,7 +41,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 30em
+        width: 17em
         required: True
         correct_answer:
         - <plain> @decolater_func

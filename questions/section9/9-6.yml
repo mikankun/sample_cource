@@ -31,14 +31,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 26em
+        width: 15em
         required: True
         correct_answer:
         - <plain> @staticmethod
 
     blank1:
         type: ShortAnswer
-        width: 40em
+        width: 22em
         required: True
         correct_answer:
         - <plain> def sample_static():

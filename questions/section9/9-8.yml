@@ -41,7 +41,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 54em
+        width: 30em
         required: True
         correct_answer:
         - <plain> super().__init__(name, age)

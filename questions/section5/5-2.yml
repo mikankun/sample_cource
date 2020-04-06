@@ -33,21 +33,21 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 12em
+        width: 7em
         required: True
         correct_answer:
         - <plain> append
 
     blank1:
         type: ShortAnswer
-        width: 12em
+        width: 7em
         required: True
         correct_answer:
         - <plain> insert
 
     blank2:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> add

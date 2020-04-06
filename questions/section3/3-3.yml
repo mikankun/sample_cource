@@ -30,7 +30,7 @@ answers:
 
     blank1:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> 3.0

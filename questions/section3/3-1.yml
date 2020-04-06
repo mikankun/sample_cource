@@ -15,7 +15,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> Hello world!

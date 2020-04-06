@@ -19,7 +19,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 60em
+        width: 33em
         required: True
         correct_answer:
         - <plain> str1.replace('Java', 'Python')

@@ -85,28 +85,28 @@ answers:
 
     blank6:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> set([
 
     blank7:
         type: ShortAnswer
-        width: 4em
+        width: 3em
         required: True
         correct_answer:
         - <plain> ])
 
     blank8:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> set((
 
     blank9:
         type: ShortAnswer
-        width: 4em
+        width: 3em
         required: True
         correct_answer:
         - <plain> ))

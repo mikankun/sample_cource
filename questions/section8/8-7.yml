@@ -31,14 +31,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 20em
+        width: 11em
         required: True
         correct_answer:
         - <plain> import csv
 
     blank1:
         type: ShortAnswer
-        width: 52em
+        width: 29em
         required: True
         correct_answer:
         - <plain> for line in csv.reader(f):

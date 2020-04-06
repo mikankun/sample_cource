@@ -49,14 +49,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> @classmethod
 
     blank1:
         type: ShortAnswer
-        width: 52em
+        width: 29em
         required: True
         correct_answer:
         - <plain> def print_class_name(cls):

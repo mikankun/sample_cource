@@ -19,14 +19,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 8em
+        width: 5em
         required: True
         correct_answer:
         - <plain> num1
 
     blank1:
         type: ShortAnswer
-        width: 8em
+        width: 5em
         required: True
         correct_answer:
         - <plain> num2

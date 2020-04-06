@@ -37,14 +37,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 20em
+        width: 11em
         required: True
         correct_answer:
         - <plain> i % 5 == 0
 
     blank1:
         type: ShortAnswer
-        width: 16em
+        width: 9em
         required: True
         correct_answer:
         - <plain> continue

@@ -51,28 +51,28 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 60em
+        width: 33em
         required: True
         correct_answer:
         - <plain> def __init__(self, name, age):
 
     blank1:
         type: ShortAnswer
-        width: 36em
+        width: 20em
         required: True
         correct_answer:
         - <plain> def getName(self):
 
     blank2:
         type: ShortAnswer
-        width: 34em
+        width: 19em
         required: True
         correct_answer:
         - <plain> def getAge(self):
 
     blank3:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> Child

@@ -23,7 +23,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 36em
+        width: 20em
         required: True
         correct_answer:
         - <plain> sort(reverse=True)

@@ -39,14 +39,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 16em
+        width: 9em
         required: True
         correct_answer:
         - <plain> num > 20
 
     blank1:
         type: ShortAnswer
-        width: 10em
+        width: 6em
         required: True
         correct_answer:
         - <plain> break

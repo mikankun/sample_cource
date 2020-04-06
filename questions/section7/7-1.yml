@@ -27,7 +27,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 22em
+        width: 13em
         required: True
         correct_answer:
         - <plain> import math

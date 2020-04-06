@@ -47,7 +47,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 40em
+        width: 22em
         required: True
         correct_answer:
         - <plain> super().print_vars()

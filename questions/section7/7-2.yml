@@ -25,7 +25,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 42em
+        width: 24em
         required: True
         correct_answer:
         - <plain> from math import sqrt

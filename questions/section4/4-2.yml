@@ -31,7 +31,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 4em
+        width: 3em
         required: True
         correct_answer:
         - <plain> or

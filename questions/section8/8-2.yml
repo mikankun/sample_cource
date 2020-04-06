@@ -19,7 +19,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 58em
+        width: 32em
         required: True
         correct_answer:
         - <plain> with open('file1', 'w') as f:

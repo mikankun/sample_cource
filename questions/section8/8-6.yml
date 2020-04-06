@@ -35,21 +35,21 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 14em
+        width: 8em
         required: True
         correct_answer:
         - <plain> f.write
 
     blank1:
         type: ShortAnswer
-        width: 14em
+        width: 8em
         required: True
         correct_answer:
         - <plain> f.write
 
     blank2:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> f.writelines

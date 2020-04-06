@@ -41,21 +41,21 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> f in fruetes
 
     blank1:
         type: ShortAnswer
-        width: 44em
+        width: 25em
         required: True
         correct_answer:
         - <plain> f in reversed(fruetes)
 
     blank2:
         type: ShortAnswer
-        width: 52em
+        width: 29em
         required: True
         correct_answer:
         - <plain> i, f in enumerate(fruetes)

@@ -23,7 +23,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 60em
+        width: 33em
         required: True
         correct_answer:
         - <plain> def __init__(self, name, age):

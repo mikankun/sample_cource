@@ -19,7 +19,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 18em
+        width: 10em
         required: True
         correct_answer:
         - <plain> len(str1)

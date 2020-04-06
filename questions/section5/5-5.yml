@@ -21,7 +21,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 44em
+        width: 25em
         required: True
         correct_answer:
         - <plain> for i in range(20, 31)

@@ -37,14 +37,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> f.readline()
 
     blank1:
         type: ShortAnswer
-        width: 24em
+        width: 14em
         required: True
         correct_answer:
         - <plain> f.readline()

@@ -33,7 +33,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 8em
+        width: 5em
         required: True
         correct_answer:
         - <plain> pass

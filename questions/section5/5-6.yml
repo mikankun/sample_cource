@@ -23,7 +23,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 64em
+        width: 36em
         required: True
         correct_answer:
         - <plain> for i in range(11) if i % 2 == 0

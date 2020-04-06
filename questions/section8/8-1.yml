@@ -37,21 +37,21 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> 'w'
 
     blank1:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> 'a'
 
     blank2:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> 'r'

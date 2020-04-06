@@ -29,14 +29,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 38em
+        width: 21em
         required: True
         correct_answer:
         - <plain> def say(self, msg):
 
     blank1:
         type: ShortAnswer
-        width: 30em
+        width: 17em
         required: True
         correct_answer:
         - <plain> taro = Person()

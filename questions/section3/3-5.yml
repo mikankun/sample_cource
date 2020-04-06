@@ -23,14 +23,14 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> '''
 
     blank1:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
         - <plain> '''

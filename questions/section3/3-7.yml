@@ -19,7 +19,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 32em
+        width: 18em
         required: True
         correct_answer:
         - <plain> str(num1 + num2)
