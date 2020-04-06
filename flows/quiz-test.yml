@@ -152,9 +152,145 @@ groups:
     -
         {{ indented_include("questions/non-ascii-choices.yml", 8) }}
     -
-        {{ indented_include("questions/3-1.yml", 8) }}
+        {{ indented_include("questions/section3/3-1.yml", 8) }}
     -
-        {{ indented_include("questions/4-1.yml", 8) }}
+        {{ indented_include("questions/section3/3-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section3/3-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section4/4-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section5/5-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section6/6-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section7/7-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-10.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-1.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-2.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-3.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-4.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-5.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-6.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-7.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-8.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section9/9-10.yml", 8) }}
 
 completion_text: |
 
