@@ -190,8 +190,6 @@ groups:
     -
         {{ indented_include("questions/section4/4-9.yml", 8) }}
     -
-        {{ indented_include("questions/section4/4-10.yml", 8) }}
-    -
         {{ indented_include("questions/section5/5-1.yml", 8) }}
     -
         {{ indented_include("questions/section5/5-2.yml", 8) }}
@@ -210,8 +208,6 @@ groups:
     -
         {{ indented_include("questions/section5/5-9.yml", 8) }}
     -
-        {{ indented_include("questions/section5/5-10.yml", 8) }}
-    -
         {{ indented_include("questions/section6/6-1.yml", 8) }}
     -
         {{ indented_include("questions/section6/6-2.yml", 8) }}
@@ -219,8 +215,6 @@ groups:
         {{ indented_include("questions/section6/6-3.yml", 8) }}
     -
         {{ indented_include("questions/section6/6-4.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-10.yml", 8) }}
     -
         {{ indented_include("questions/section7/7-1.yml", 8) }}
     -
@@ -244,8 +238,6 @@ groups:
     -
         {{ indented_include("questions/section8/8-9.yml", 8) }}
     -
-        {{ indented_include("questions/section8/8-10.yml", 8) }}
-    -
         {{ indented_include("questions/section9/9-1.yml", 8) }}
     -
         {{ indented_include("questions/section9/9-2.yml", 8) }}
@@ -263,8 +255,6 @@ groups:
         {{ indented_include("questions/section9/9-8.yml", 8) }}
     -
         {{ indented_include("questions/section9/9-9.yml", 8) }}
-    -
-        {{ indented_include("questions/section9/9-10.yml", 8) }}
 
 completion_text: |
 
