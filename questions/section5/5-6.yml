@@ -10,7 +10,7 @@ question: |
 
     ## 10以下の偶数を出力する。
 
-    list1 = [i [[blank0]]!]
+    list1 = [i [[blank0]]]
 
     
 

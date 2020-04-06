@@ -12,7 +12,7 @@ question: |
 
     $~~~~$# コンストラクタ
 
-    $~~~~$[[blank0]]!
+    $~~~~$[[blank0]]:
 
     $~~~~$$~~~~$self.name = name
 
@@ -23,8 +23,8 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 33em
+        width: 32em
         required: True
         correct_answer:
-        - <plain> def __init__(self, name, age):
+        - <plain> def __init__(self, name, age)
 

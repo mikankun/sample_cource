@@ -12,19 +12,19 @@ question: |
 
     
 
-    [[blank0]]
+    [[blank0]]:
 
     $~~~~$with open('file4', 'r') as f:
 
     $~~~~$$~~~~$lines = f.readlines()
 
-    [[blank1]]
+    [[blank1]]:
 
     $~~~~$# ファイルが無い時に実行
 
     $~~~~$print('ファイルがありません')
 
-    [[blank2]]
+    [[blank2]]:
 
     $~~~~$# ファイルの有無にかかわらず実行
 
@@ -41,22 +41,22 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 6em
+        width: 4em
         required: True
         correct_answer:
-        - <plain> try: 
+        - <plain> try
 
     blank1:
         type: ShortAnswer
-        width: 28em
+        width: 27em
         required: True
         correct_answer:
-        - <plain> except FileNotFoundError:
+        - <plain> except FileNotFoundError
 
     blank2:
         type: ShortAnswer
-        width: 9em
+        width: 8em
         required: True
         correct_answer:
-        - <plain> finally:
+        - <plain> finally
 

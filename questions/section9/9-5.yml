@@ -24,7 +24,7 @@ question: |
 
     $~~~~$[[blank0]]
 
-    $~~~~$[[blank1]]
+    $~~~~$[[blank1]]:
 
     $~~~~$$~~~~$print(cls)
 
@@ -56,8 +56,8 @@ answers:
 
     blank1:
         type: ShortAnswer
-        width: 29em
+        width: 28em
         required: True
         correct_answer:
-        - <plain> def print_class_name(cls):
+        - <plain> def print_class_name(cls)
 

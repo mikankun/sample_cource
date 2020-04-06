@@ -18,7 +18,7 @@ question: |
 
     with open('sample.csv', 'r') as f:
 
-    $~~~~$[[blank1]]
+    $~~~~$[[blank1]]:
 
     $~~~~$$~~~~$print(line)
 
@@ -38,8 +38,8 @@ answers:
 
     blank1:
         type: ShortAnswer
-        width: 29em
+        width: 28em
         required: True
         correct_answer:
-        - <plain> for line in csv.reader(f):
+        - <plain> for line in csv.reader(f)
 

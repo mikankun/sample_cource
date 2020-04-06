@@ -12,7 +12,7 @@ question: |
 
     $~~~~$# コンストラクタ
 
-    $~~~~$[[blank0]]
+    $~~~~$[[blank0]]:
 
     $~~~~$$~~~~$self.name = name
 
@@ -22,13 +22,13 @@ question: |
 
     $~~~~$# メソッド定義
 
-    $~~~~$[[blank1]]
+    $~~~~$[[blank1]]:
 
     $~~~~$$~~~~$return self.name
 
     $~~~~$
 
-    $~~~~$[[blank2]]
+    $~~~~$[[blank2]]:
 
     $~~~~$$~~~~$return self.age
 
@@ -51,24 +51,24 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 33em
+        width: 32em
         required: True
         correct_answer:
-        - <plain> def __init__(self, name, age):
+        - <plain> def __init__(self, name, age)
 
     blank1:
-        type: ShortAnswer
-        width: 20em
-        required: True
-        correct_answer:
-        - <plain> def getName(self):
-
-    blank2:
         type: ShortAnswer
         width: 19em
         required: True
         correct_answer:
-        - <plain> def getAge(self):
+        - <plain> def getName(self)
+
+    blank2:
+        type: ShortAnswer
+        width: 18em
+        required: True
+        correct_answer:
+        - <plain> def getAge(self)
 
     blank3:
         type: ShortAnswer

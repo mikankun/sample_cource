@@ -12,7 +12,7 @@ question: |
 
     $~~~~$# メソッド定義
 
-    $~~~~$[[blank0]]
+    $~~~~$[[blank0]]:
 
     $~~~~$$~~~~$print(msg)
 
@@ -29,10 +29,10 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 21em
+        width: 20em
         required: True
         correct_answer:
-        - <plain> def say(self, msg):
+        - <plain> def say(self, msg)
 
     blank1:
         type: ShortAnswer

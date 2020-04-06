@@ -22,7 +22,7 @@ question: |
 
     # サブクラス
 
-    class Student[[blank0]]!:
+    class Student[[blank0]]:
 
     $~~~~$def get_grade(self):
 

@@ -14,7 +14,7 @@ question: |
 
     $~~~~$[[blank0]]
 
-    $~~~~$[[blank1]]
+    $~~~~$[[blank1]]:
 
     $~~~~$$~~~~$print('Static sample')
 
@@ -38,8 +38,8 @@ answers:
 
     blank1:
         type: ShortAnswer
-        width: 22em
+        width: 21em
         required: True
         correct_answer:
-        - <plain> def sample_static():
+        - <plain> def sample_static()
 

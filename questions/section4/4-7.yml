@@ -10,7 +10,7 @@ question: |
 
     # 偶数を10個出力
 
-    for i in [[blank0]]!:
+    for i in [[blank0]]:
 
     $~~~~$print(i)
 

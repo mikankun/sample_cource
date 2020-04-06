@@ -12,7 +12,7 @@ question: |
 
     with open('file1', 'r') as f:
 
-    $~~~~$lines = [[blank0]]!
+    $~~~~$lines = [[blank0]]
 
     
 
