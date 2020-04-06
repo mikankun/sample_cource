@@ -153,6 +153,8 @@ groups:
         {{ indented_include("questions/non-ascii-choices.yml", 8) }}
     -
         {{ indented_include("questions/3-1.yml", 8) }}
+    -
+        {{ indented_include("questions/4-1.yml", 8) }}
 
 completion_text: |
 
