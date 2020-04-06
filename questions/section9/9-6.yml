@@ -20,7 +20,7 @@ question: |
 
     
 
-    # クラスメソッド呼出し
+    $$# クラスメソッド呼出し
 
     SampleClass2.sample_static()
 

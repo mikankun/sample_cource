@@ -8,13 +8,13 @@ prompt: |
 
 question: |
 
-    # csv モジュール読込み
+    $$# csv モジュール読込み
 
     [[blank0]]
 
     
 
-    # CSVファイルを一行づつ読込み
+    $$# CSVファイルを一行づつ読込み
 
     with open('sample.csv', 'r') as f:
 

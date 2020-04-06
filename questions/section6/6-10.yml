@@ -38,17 +38,17 @@ prompt: |
     
     （解答）
     def bmi(height,weight):
-    $~~~~$# BMIを求める。
-    $~~~~$height = height / 100
-    $~~~~$bmi = weight / (height * height)
-    $~~~~$# 肥満度を求める。
-    $~~~~$if bmi < 18:
-    $~~~~$$~~~~$judge = 'やせがた'
-    $~~~~$elif bmi >= 18 and bmi < 25:
-    $~~~~$$~~~~$judge = 'ふつう'
-    $~~~~$else:
-    $~~~~$$~~~~$judge = 'メタボ'
-    $~~~~$return bmi,judge
+        # BMIを求める。
+        height = height / 100
+        bmi = weight / (height * height)
+        # 肥満度を求める。
+        if bmi < 18:
+            judge = 'やせがた'
+        elif bmi >= 18 and bmi < 25:
+            judge = 'ふつう'
+        else:
+            judge = 'メタボ'
+        return bmi,judge
     
     value1 = input('身長を入力してください：')
     value2 = input('体重を入力してください：')

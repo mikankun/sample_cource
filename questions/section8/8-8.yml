@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    # csv モジュール読込み
+    $$# csv モジュール読込み
 
     [[blank0]]
 
@@ -26,7 +26,7 @@ question: |
 
     $~~~~$ 
 
-    # CSVファイルに書込み
+    $$# CSVファイルに書込み
 
     with open('sample.csv', 'w') as f:
 

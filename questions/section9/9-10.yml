@@ -17,23 +17,23 @@ prompt: |
     
     （解答）
     class Book:
-    $~~~~$def __init__(self, title):
-    $~~~~$$~~~~$self.title = title
-    $~~~~$def printTitle(self):
-    $~~~~$$~~~~$print ('書籍名は', self.title)
-    $~~~~$$~~~~$
+        def __init__(self, title):
+            self.title = title
+        def printTitle(self):
+            print ('書籍名は', self.title)
+            
     def printBook():
-    $~~~~$bookList = []
-    $~~~~$book1 = Book('吾輩は猫である')
-    $~~~~$book2 = Book('銀河鉄道の夜')
-    $~~~~$book3 = Book('雪国')
-    $~~~~$
-    $~~~~$bookList.append(book1)
-    $~~~~$bookList.append(book2)
-    $~~~~$bookList.append(book3)
-    $~~~~$
-    $~~~~$for bk in bookList:
-    $~~~~$$~~~~$bk.printTitle()
+        bookList = []
+        book1 = Book('吾輩は猫である')
+        book2 = Book('銀河鉄道の夜')
+        book3 = Book('雪国')
+        
+        bookList.append(book1)
+        bookList.append(book2)
+        bookList.append(book3)
+        
+        for bk in bookList:
+            bk.printTitle()
     
     printBook()
     

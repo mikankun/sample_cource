@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    # ファイルに一行づつ書込み
+    $$# ファイルに一行づつ書込み
 
     with open('file2', 'w') as f:
 
@@ -18,7 +18,7 @@ question: |
 
     
 
-    # リストの内容をファイル書込み
+    $$# リストの内容をファイル書込み
 
     list1 = ['line 3\n', 'line 4\n']
 

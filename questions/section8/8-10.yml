@@ -22,8 +22,8 @@ prompt: |
     
     # ファイル出力
     with open(zodiact_file, 'w') as f:
-    $~~~~$for zdt in zodiact:
-    $~~~~$$~~~~$f.write(zdt + '\n')
+        for zdt in zodiact:
+            f.write(zdt + '\n')
     
     print('ファイルを出力しました。')
     
@@ -31,11 +31,11 @@ prompt: |
     print('ファイルの内容を読み込みます。')
     
     with open(zodiact_file, 'r') as f:
-    $~~~~$lines = f.readlines()
+        lines = f.readlines()
     
     zodiact2 = []
     for line in lines:
-    $~~~~$zodiact2.append(line.strip())
+        zodiact2.append(line.strip())
     
     print(zodiact2)
 
