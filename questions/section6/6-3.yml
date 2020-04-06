@@ -10,7 +10,7 @@ question: |
 
     # 正品名と値段を表示する関数を作成
 
-    [[blank0]]!
+    [[blank0]]:
 
     $~~~~$for product, price in args.items():
 
@@ -27,8 +27,8 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 25em
+        width: 24em
         required: True
         correct_answer:
-        - <plain> def pricelist(**args):
+        - <plain> def pricelist(**args)
 

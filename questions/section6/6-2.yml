@@ -10,7 +10,7 @@ question: |
 
     # 文字列を逆にして連結する関数を作成
 
-    [[blank0]]!
+    [[blank0]]:
 
     $~~~~$str = ''
 
@@ -31,8 +31,8 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 21em
+        width: 20em
         required: True
         correct_answer:
-        - <plain> def revcat2(*args):
+        - <plain> def revcat2(*args)
 

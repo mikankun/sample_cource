@@ -23,7 +23,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 26em
+        width: 25em
         required: True
         correct_answer:
         - <plain> def revcat(str1, str2)

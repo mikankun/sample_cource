@@ -39,7 +39,7 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 19em
+        width: 18em
         required: True
         correct_answer:
         - <plain> while f2 < 10000
