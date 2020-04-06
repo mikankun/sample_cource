@@ -220,37 +220,11 @@ groups:
     -
         {{ indented_include("questions/section6/6-4.yml", 8) }}
     -
-        {{ indented_include("questions/section6/6-5.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-6.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-7.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-8.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-9.yml", 8) }}
-    -
         {{ indented_include("questions/section6/6-10.yml", 8) }}
     -
         {{ indented_include("questions/section7/7-1.yml", 8) }}
     -
         {{ indented_include("questions/section7/7-2.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-3.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-4.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-5.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-6.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-7.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-8.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-9.yml", 8) }}
-    -
-        {{ indented_include("questions/section7/7-10.yml", 8) }}
     -
         {{ indented_include("questions/section8/8-1.yml", 8) }}
     -
