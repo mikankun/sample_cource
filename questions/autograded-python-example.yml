@@ -6,6 +6,7 @@ access_rules:
 value: 1
 timeout: 10
 prompt: |
+show_test_code: True
 
     # Adding two numbers in Python
 
