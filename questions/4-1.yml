@@ -6,7 +6,7 @@ prompt: |
     # 演習問題 4_1
     空欄をうめてください
 
-question: |
+question: |+
 
     num1 = int(input('数字を入れてください:'))
     
