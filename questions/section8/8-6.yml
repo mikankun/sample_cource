@@ -12,9 +12,9 @@ question: |
 
     with open('file2', 'w') as f:
 
-    $~~~~$[[blank0]]('line 1\n')
+    $~~~~$[[blank0]] ('line 1\n')
 
-    $~~~~$[[blank1]]('line 2\n')
+    $~~~~$[[blank1]] ('line 2\n')
 
     
 
@@ -24,7 +24,7 @@ question: |
 
     with open('file2', 'w') as f:
 
-    $~~~~$[[blank2]](list1)
+    $~~~~$[[blank2]] (list1)
 
     
 
