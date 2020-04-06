@@ -6,13 +6,13 @@ prompt: |
     # 演習問題 4_1
     空欄をうめてください
 
-question: |+
+question: |
     
     num1 = int(input('数字を入れてください:'))
     
     if [[blank0]]:
     
-    　　print(num1, 'は負の数です。')
+        print(num1, 'は負の数です。')
     
     [[blank1]] [[blank2]]:
     
