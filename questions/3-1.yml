@@ -1,15 +1,21 @@
 type: InlineMultiQuestion
-id: test_id_3_1
+id: test_id_3-1
 value: 10
 prompt: |
 
     # 演習問題 3-1
     'Hello world!' と出力してください
-    #######
-    print('<~Hello world!~>')
 
 question: |
 
+    print('[[blank0]]')
 
 answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 24em
+        required: True
+        correct_answer:
+        - <plain> Hello world!
 
