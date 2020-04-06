@@ -12,7 +12,7 @@ question: |
 
     
 
-    $$# fruetes の内容を順に出力する
+    　# fruetes の内容を順に出力する
 
     for [[blank0]]:
 
@@ -20,7 +20,7 @@ question: |
 
     
 
-    $$# fruetes の内容を逆順に出力する
+    　# fruetes の内容を逆順に出力する
 
     for [[blank1]]:
 
@@ -28,7 +28,7 @@ question: |
 
     
 
-    $$# fruetes の内容をインデックスと同時に出力する
+    　# fruetes の内容をインデックスと同時に出力する
 
     for [[blank2]]:
 

@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    $$# ファイルを一行づつ読込み
+    　# ファイルを一行づつ読込み
 
     with open('file1', 'r') as f:
 
@@ -22,9 +22,9 @@ question: |
 
     
 
-    $$# (参考)
+    　# (参考)
 
-    $$# 同じ動作を for でも書けます。
+    　# 同じ動作を for でも書けます。
 
     with open('file1', 'r') as f:
 

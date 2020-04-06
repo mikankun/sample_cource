@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    $$#デコレータ関数の定義
+    　#デコレータ関数の定義
 
     def decolater_func(arg_func):
 
@@ -26,7 +26,7 @@ question: |
 
     [[blank0]]
 
-    $$#デコレートする関数
+    　#デコレートする関数
 
     def main_func(x):
 

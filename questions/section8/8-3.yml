@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    $$# ファイルの全ての内容を読込み
+    　# ファイルの全ての内容を読込み
 
     with open('file1', 'r') as f:
 

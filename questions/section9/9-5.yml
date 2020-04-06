@@ -32,7 +32,7 @@ question: |
 
     
 
-    $$# インスタンスからクラスメソッド呼出し
+    　# インスタンスからクラスメソッド呼出し
 
     sample_class = SampleClass('BEN')
 
@@ -40,7 +40,7 @@ question: |
 
     
 
-    $$# クラス名からクラスメソッド呼出し
+    　# クラス名からクラスメソッド呼出し
 
     SampleClass.print_class_name()
 

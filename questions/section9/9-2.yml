@@ -34,11 +34,11 @@ question: |
 
     $~~~~$
 
-    $$# インスタンス生成
+    　# インスタンス生成
 
     taro = [[blank3]]('taro', 6)
 
-    $$# メソッド呼出し
+    　# メソッド呼出し
 
     print(taro.getName())
 

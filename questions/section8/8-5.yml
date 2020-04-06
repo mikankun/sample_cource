@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    $$# ファイル全体をリストにして読込み。
+    　# ファイル全体をリストにして読込み。
 
     with open('file1', 'r') as f:
 

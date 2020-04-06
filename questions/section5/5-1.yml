@@ -8,33 +8,33 @@ prompt: |
 
 question: |
 
-    $$#リスト
+    　#リスト
 
     list1 = [[blank0]]1, 2, 3[[blank1]]
 
     
 
-    $$#タプル
+    　#タプル
 
     tuple1 = [[blank2]]1, 2, 3[[blank3]]
 
     
 
-    $$#辞書
+    　#辞書
 
     dict1 = [[blank4]]'idx1': 100, 'idx2': 200[[blank5]]
 
     
 
-    $$#セット
+    　#セット
 
     set1 = [[blank6]]1, 2, 3[[blank7]]
 
-    $$##または
+    　##または
 
     set1 = [[blank8]]1, 2, 3[[blank9]]
 
-    $$##または
+    　##または
 
     set1 = [[blank10]]1, 2, 3[[blank11]]
 

@@ -8,7 +8,7 @@ prompt: |
 
 question: |
 
-    $$# close しなくてもいいように 'file1' を上書きopenする
+    　# close しなくてもいいように 'file1' を上書きopenする
 
     [[blank0]]:
 
