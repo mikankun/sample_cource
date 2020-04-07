@@ -18,6 +18,9 @@ setup_code: |
     #a = random.uniform(-10, 10)
     #b = random.uniform(-10, 10)
 
+    a = 160
+    b = 80
+
 names_for_user: [a, b]
 
 names_from_user: [c]
