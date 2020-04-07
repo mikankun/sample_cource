@@ -42,11 +42,11 @@ test_code: |
     err_bmi = abs(correct_bmi - bmi)/abs(correct_bmi)
     err_fatness = abs(correct_fatness - fatness)/abs(correct_fatness)
 
-    if rel_err1 < 1e-7 and rel_err1 < 1e-7:
+    if err_bmi < 1e-7 and err_fatness < 1e-7:
         feedback.finish(1, "Your computed c was correct.")
-    elif rel_err1 >= 1e-7 and rel_err1 < 1e-7:
+    elif err_bmi >= 1e-7 and err_fatness < 1e-7:
         feedback.finish(0, "Your computed bmi was incorrect.")
-    elif rel_err1 < 1e-7 and rel_err1 >= 1e-7:
+    elif err_bmi < 1e-7 and err_fatness >= 1e-7:
         feedback.finish(0, "Your computed fatness was incorrect.")
     else:
         feedback.finish(0, "Your computed bmi and fatness was incorrect.")
