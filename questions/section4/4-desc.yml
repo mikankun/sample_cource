@@ -1,0 +1,66 @@
+type: PythonCodeQuestion
+id: test_4_desc
+access_rules:
+    add_permissions:
+        - change_answer
+value: 1
+timeout: 10
+prompt: |
+
+    # プログラム作成問題
+####
+    BMIと肥満度を計算するプログラムを作成してください。
+    ◎変数 *weight* に体重を、変数 *height* に身長がはいっているとして、
+    setup_codeの続きを作成してください。
+    ◎計算結果は、BMIは*bmi*、肥満度は*fatness*という変数に代入してください。
+    ◎BMIの求め方
+    BMI = 体重(kg)÷(身長(m)×身長(m))
+    ※身長はcmではないので注意。
+    ◎肥満度の求め方
+    肥満度は下記の条件で求めてください。
+    ・BMIが18より小さい→1
+    ・BMIが18以上で25より小さい→2
+    ・上記以外→3
+    
+    書き終わったら　submit　してください。自動的に採点します。
+
+show_setup_code: True
+setup_code: |
+    import random
+
+    height = random.uniform(150, 200)
+    weight = random.uniform(40, 100)
+
+names_for_user: [height, weight]
+
+names_from_user: [bmi, fatness]
+
+test_code: |
+    if not isinstance(bmi, float):
+        feedback.finish(0, "bmi が float ではありません")
+
+    if not isinstance(fatness, int):
+        feedback.finish(0, "fatness が integer ではありません.")
+
+    height_cm = height / 100
+    correct_bmi = weight / (height_cm * height_cm)
+
+    if correct_bmi < 18:
+        correct_fatness = 1
+    elif correct_bmi >= 18 and correct_bmi < 25:
+        correct_fatness = 2
+    else:
+        correct_fatness = 3
+    
+    err_bmi = abs(correct_bmi - bmi)/abs(correct_bmi)
+    err_fatness = abs(correct_fatness - fatness)/abs(correct_fatness)
+
+    if err_bmi < 1e-7 and err_fatness < 1e-7:
+        feedback.finish(1, "正解です。")
+    elif err_bmi >= 1e-7 and err_fatness < 1e-7:
+        feedback.finish(0, "bmi が間違っています。")
+    elif err_bmi < 1e-7 and err_fatness >= 1e-7:
+        feedback.finish(0, "fatness が間違っています。")
+    else:
+        feedback.finish(0, "bmi と fatness が間違っています。")
+
