@@ -9,36 +9,32 @@ prompt: |
 
     # auto Test 
 
-    Your code will receive two variables, *a* and *b*. Compute their sum and
-    assign it to *c*.
+    Your code will receive two variables, *height* and *weight*. Compute their sum and
+    assign it to *bmi* and *fatness*.
 
 setup_code: |
-    #import random
+    import random
 
-    #a = random.uniform(-10, 10)
-    #b = random.uniform(-10, 10)
+    height = random.uniform(150, 200)
+    weight = random.uniform(40, 100)
 
-    a = 160
-    b = 80
+names_for_user: [height, weight]
 
-names_for_user: [a, b]
-
-names_from_user: [c]
+names_from_user: [bmi, fatness]
 
 test_code: |
-    if not isinstance(c, float):
-        feedback.finish(0, "Your computed c is not a float.")
+    if not isinstance(bmi, float):
+        feedback.finish(0, "Your computed bmi is not a float.")
 
-    correct_c = a + b
-    rel_err = abs(correct_c-c)/abs(correct_c)
+    if not isinstance(fatness, float):
+        feedback.finish(0, "Your computed fatness is not a float.")
+
+    height_cm = height / 100
+    correct_bmi = weight / (height_cm * height_cm)
+
+    rel_err1 = abs(correct_bmi-bmi)/abs(correct_bmi)
 
     if rel_err < 1e-7:
         feedback.finish(1, "Your computed c was correct.")
     else:
         feedback.finish(0, "Your computed c was incorrect.")
-
-correct_code: |
-
-    c = a + b
-
-
