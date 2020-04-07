@@ -1,0 +1,49 @@
+type: PythonCodeQuestion
+id: test_9_desc
+access_rules:
+    add_permissions:
+        - change_answer
+value: 1
+timeout: 10
+prompt: |
+
+    # 9章プログラム作成問題
+
+    クラス「Book」を作成し、指定された処理を行ってください。
+
+    $~~~~$ １. 以下の仕様を満たす Book クラスを作成してください。
+
+　　$~~~~~~~~$ ・ コンストラクタで属性「title」をセットできるようにしてください。
+
+    $~~~~~~~~$ ・ 「書籍名は？？です」と表示するメソッド「printTitle」を作成してください。
+
+    $~~~~$ ２. 作成した Book クラスに対し次の 3 つのインスタンスを生成してください。
+
+    $~~~~~~~~$ ・ title '吾輩は猫である'
+
+    $~~~~~~~~$ ・ title '銀河鉄道の夜'
+
+    $~~~~~~~~$ ・ title '吾輩は猫である'
+
+    $~~~~$ ３. 作成したインスタンスはリスト「book_list」に格納してください。
+
+　　$~~~~$ ４. リスト「book_list」をループで回し、Book の printTitle メソッドを呼び出してください。
+
+    $~~~~$ 期待される出力結果
+    $~~~~~~~~$ 書籍名は 吾輩は猫である
+    $~~~~~~~~$ 書籍名は 銀河鉄道の夜
+    $~~~~~~~~$ 書籍名は 雪国
+
+    できあがったら submit してください。自動的に採点します。
+
+names_from_user: [bookList, Book]
+
+test_code: |
+
+    if bookList[0].title == '吾輩は猫である'
+      and bookList[1].title == '銀河鉄道の夜'
+      and bookList[2].title == '雪国' :
+
+        feedback.finish(1, "正解です。")
+    else:
+        feedback.finish(0, "間違っています。")
