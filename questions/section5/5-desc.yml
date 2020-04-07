@@ -44,7 +44,7 @@ test_code: |
 
     for i in list0:
         if not isinstance(i, float):
-	    feedback.finish(0, "list0 に整数ではない値が入っています。")
+            feedback.finish(0, "list0 に整数ではない値が入っています。")
         if i % 2 == 0:
             correct_list_even.append(i)
         else:
