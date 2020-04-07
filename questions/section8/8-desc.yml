@@ -13,7 +13,7 @@ prompt: |
 
     $~~~~$ ● open するファイル名は変数 filename に入っているとして、プログラムを書いてください。
 
-    $~~~~$ ● 読み込んだ内容を、list0 という名前のリストにいれます。下の(例)のようにファイルの一行をリストの1要素としてください。
+    $~~~~$ ● 読み込んだ内容を、list0 という名前のリストに入れてください。下の(例)のようにファイルの一行をリストの1要素としてください。
 
     $~~~~~~~~$ (例)
 
@@ -24,8 +24,6 @@ prompt: |
     $~~~~~~~~~~~~$ tomato
 
     $~~~~~~~~~~~~$ orange
-
-    $~~~~~~~~~~~~$
 
     $~~~~~~~~$ list0 の中身
 
@@ -41,7 +39,7 @@ data_files:
 
 show_setup_code: False
 setup_code: |
-    filename = datafile["question-data/8-desc_datafile.txt"]
+    filename = data_files["question-data/8-desc_datafile.txt"]
 
 names_for_user: [filename]
 
