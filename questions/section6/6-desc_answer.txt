@@ -8,15 +8,14 @@ def calc_bmi(height,weight):
 def calc_fatness(bmi):
     # 肥満度を求める。
     if bmi < 18:
-        judge = 1
+        judge = 0
     elif bmi >= 18 and bmi < 25:
-        judge = 2
+        judge = 1
     else:
-        judge = 3
+        judge = 2
     
     return judge
 
 # bmi関数の呼び出し
 bmi = calc_bmi(height,weight)
 fatness = calc_fatness(bmi)
-
