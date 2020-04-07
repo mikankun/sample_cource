@@ -1,0 +1,22 @@
+def calc_bmi(height,weight):
+    # BMIを求める。
+    height = height / 100
+    bmi = weight / (height * height)
+    
+    return bmi
+
+def calc_fatness(bmi):
+    # 肥満度を求める。
+    if bmi < 18:
+        judge = 1
+    elif bmi >= 18 and bmi < 25:
+        judge = 2
+    else:
+        judge = 3
+    
+    return judge
+
+# bmi関数の呼び出し
+bmi = calc_bmi(height,weight)
+fatness = calc_fatness(bmi)
+

@@ -45,7 +45,7 @@ setup_code: |
 
 names_for_user: [height, weight]
 
-names_from_user: [bmi, fatness]
+names_from_user: [bmi, fatness, calc_bmi, calc_fatness]
 
 test_code: |
     if not isinstance(bmi, float):
