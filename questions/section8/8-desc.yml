@@ -40,7 +40,7 @@ data_files:
 show_setup_code: False
 setup_code: |
     filename = data_files["question-data/8-desc_datafile.txt"]
-    f = open(filename, 'r')
+    #f = open(filename, 'r')
     ### filename は BiteIO オブジェクトのため、
     ### このコードは動きません。
 
