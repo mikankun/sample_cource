@@ -1,5 +1,5 @@
 type: PythonCodeQuestion
-id: test_4_desc
+id: test_6_desc
 access_rules:
     add_permissions:
         - change_answer
@@ -9,11 +9,13 @@ prompt: |
 
     # プログラム作成問題
 
-    BMIと肥満度を計算するプログラムを作成してください。
+    4章のプログラム作成問題の BMI と肥満度を計算する部分をそれぞれ関数にしてください。
 
     $~~~~$ ● 変数 *weight* に体重、変数 *height* に身長がはいっているとして、set-up codeの続きを作成してください。
 
-    $~~~~$ ● 計算結果は、BMIは*bmi*、肥満度は*fatness*という変数に代入してください。
+    $~~~~$ ● BMI を計算する関数は calc_bmi 、肥満度を計算する関数は calc_fatness という名前にしてください。
+
+    $~~~~$ ● 作った関数を呼び出し、それぞれ *bmi*、*fatness*という変数に代入してください。
 
     $~~~~$ ● BMIの求め方
 
@@ -61,11 +63,19 @@ test_code: |
         correct_fatness = 2
     else:
         correct_fatness = 3
+
+    bmi_from_func = calc_bmi(height)
+    fatness_from_func = calc_fatness(bmi)
     
     err_bmi = abs(correct_bmi - bmi)/abs(correct_bmi)
     err_fatness = abs(correct_fatness - fatness)/abs(correct_fatness)
 
-    if err_bmi < 1e-7 and err_fatness < 1e-7:
+    if bmi_from_func != bmi:
+        feedback.finish(0, "calc_bmi が正しく呼び出されていません。")
+    if fatness_from_func != fatness:
+        feedback.finish(0, "calc_fatness が正しく呼び出されていません。")
+    
+    if err_bmi < 1e-7 and err_fatness < 1e-7 :
         feedback.finish(1, "正解です。")
     elif err_bmi >= 1e-7 and err_fatness < 1e-7:
         feedback.finish(0, "bmi が間違っています。")
