@@ -1,0 +1,62 @@
+type: PythonCodeQuestion
+id: test_5_desc
+access_rules:
+    add_permissions:
+        - change_answer
+value: 1
+timeout: 10
+prompt: |
+
+    # プログラム作成問題
+
+    1〜60までのランダムな数値の要素を10個持つリストを作成し、作成したリストから偶数の値のみを取り出したリスト、奇数の値のみを取り出したリストを新しく作成し、それぞれのリストの全ての要素を出力するプログラムを作成しなさい。
+
+    $~~~~$ ● 元となるリストは list0 という変数名にしてください。
+
+    $~~~~$ ● 偶数のリストは list_even という変数名にしてください。
+
+    $~~~~$ ● 奇数のリストは list_odd という変数名にしてください。
+
+    $~~~~$ ● ランダムな数値の作成には、プログラムの最初に
+
+    $~~~~~~~~$ import random 
+
+    $~~~~$ と宣言した上で、
+
+    $~~~~~~~~$ random.randint(0,61)  # 戻り値が60以下のランダムな整数値
+
+    $~~~~$ を使用してください。
+
+    $~~~~$ ● 期待される結果
+
+    $~~~~$ ・ 元となるリスト(list0)： [55, 2, 12, 11, 43, 8, 54, 38, 1]
+
+    $~~~~$ ・ 偶数のリスト(list_even)： [2, 12, 8, 54, 38]
+
+    $~~~~$ ・ 奇数のリスト(list_odd)： [55, 11, 43, 1]
+
+
+names_from_user: [list0, list_even, list_odd]
+
+test_code: |
+    correct_list_even = []
+    correct_list_odd = []
+
+    for i in list0:
+        if i % 2 == 0:
+            correct_list_even.append(i)
+        else:
+            correct_list_odd.append(i)
+
+    set_even = set(list_even)
+    set_odd = set(list_odd)
+    set_correct_even = set(list_correct_even)
+    set_correct_odd = set(list_correct_odd)
+    if set_even == set_correct_even and set_odd == set_correct_odd:
+        feedback.finish(1, "正解です。")
+    elif set_even != set_correct_even and set_odd == set_correct_odd:
+        feedback.finish(0, "list_even が間違っています。")
+    elif set_even == set_correct_even and set_odd != set_correct_odd:
+        feedback.finish(0, "list_odd が間違っています。")
+    else:
+        feedback.finish(0, "list_evne も list_odd も間違っています。")
