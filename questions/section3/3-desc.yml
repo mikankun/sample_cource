@@ -26,7 +26,7 @@ test_code: |
     if not isinstance(bmi, float):
         feedback.finish(0, "Your computed bmi is not a float.")
 
-    if not isinstance(fatness, integer):
+    if not isinstance(fatness, int):
         feedback.finish(0, "Your computed fatness is not a integer.")
 
     height_cm = height / 100
