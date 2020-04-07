@@ -13,12 +13,10 @@ prompt: |
     assign it to *c*.
 
 setup_code: |
-#    import random
+    import random
 
-#    a = random.uniform(-10, 10)
-#    b = random.uniform(-10, 10)
-     a = 160
-     b = 80
+    a = random.uniform(-10, 10)
+    b = random.uniform(-10, 10)
 
 names_for_user: [a, b]
 
