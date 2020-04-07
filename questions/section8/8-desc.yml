@@ -40,8 +40,9 @@ data_files:
 show_setup_code: False
 setup_code: |
     filename = data_files["question-data/8-desc_datafile.txt"]
+    f = open(filename, 'r')
 
-names_for_user: [filename]
+names_for_user: [filename, f]
 
 names_from_user: [list0]
 
