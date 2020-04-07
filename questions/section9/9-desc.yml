@@ -43,9 +43,9 @@ names_from_user: [book_list, Book]
 
 test_code: |
 
-    if book_list[0].title == '吾輩は猫である'
-      and book_list[1].title == '銀河鉄道の夜'
-      and book_list[2].title == '雪国' :
+    if book_list[0].title == 'Book_A' \
+      and book_list[1].title == 'Book_B' \
+      and book_list[2].title == 'Book_C' :
 
         feedback.finish(1, "正解です。")
     else:

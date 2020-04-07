@@ -1,0 +1,18 @@
+class Book:
+    def __init__(self, title):
+        self.title = title
+    def print_title(self):
+        print ('Title is ', self.title)
+        
+book_list = []
+book1 = book('Book_A')
+book2 = book('Book_B')
+book3 = book('Book_C')
+
+book_list.append(book1)
+book_list.append(book2)
+book_list.append(book3)
+
+for bk in book_list:
+    bk.print_title()
+
