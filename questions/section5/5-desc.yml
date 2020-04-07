@@ -50,8 +50,8 @@ test_code: |
 
     set_even = set(list_even)
     set_odd = set(list_odd)
-    set_correct_even = set(list_correct_even)
-    set_correct_odd = set(list_correct_odd)
+    set_correct_even = set(correct_list_even)
+    set_correct_odd = set(correct_list_odd)
     if set_even == set_correct_even and set_odd == set_correct_odd:
         feedback.finish(1, "正解です。")
     elif set_even != set_correct_even and set_odd == set_correct_odd:
