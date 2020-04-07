@@ -1,0 +1,55 @@
+type: PythonCodeQuestion
+id: test_8_desc
+access_rules:
+    add_permissions:
+        - change_answer
+value: 1
+timeout: 10
+prompt: |
+
+    # 8章プログラム作成問題
+
+    テキストファイルを読み込んで、内容をリストに格納してください。
+
+    $~~~~$ ● open するファイル名は変数 filename に入っているとして、プログラムを書いてください。
+
+    $~~~~$ ● 読み込んだ内容を、list0 という名前のリストにいれます。下の(例)のようにファイルの一行をリストの1要素としてください。
+
+    $~~~~~~~~$ (例)
+
+    $~~~~~~~~$ ファイルの内容
+
+    $~~~~~~~~~~~~$ apple
+
+    $~~~~~~~~~~~~$ tomato
+
+    $~~~~~~~~~~~~$ orange
+
+    $~~~~~~~~~~~~$
+
+    $~~~~~~~~$ list0 の中身
+
+    $~~~~~~~~~~~~$ ['apple', 'tomato', 'orange']
+
+    $~~~~$ ※ファイルの内容を読み込むと、改行コードも付いてくるので、String.strip()で改行は除去するしてください。
+
+    できあがったら submit してください。自動的に採点します。
+
+
+data_files:
+    - "question-data/8-desc_datafile.txt"
+
+show_setup_code: False
+setup_code: |
+    filename = datafile["question-data/8-desc_datafile.txt"]
+
+names_for_user: [filename]
+
+names_from_user: [list0]
+
+test_code: |
+    zodiact_list = ['子', '丑', '寅', '卯', '辰', '巳', '午', '未', '申', '酉', '戌', '亥'];
+    if list0 == zodiact_list:
+        feedback.finish(1, "正解です。")
+    else:
+        feedback.finish(0, "間違っています。")
