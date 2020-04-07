@@ -24,10 +24,10 @@ names_from_user: [bmi, fatness]
 
 test_code: |
     if not isinstance(bmi, float):
-        feedback.finish(0, "Your computed bmi is not a float.")
+        feedback.finish(0, "bmi が float ではありません")
 
     if not isinstance(fatness, int):
-        feedback.finish(0, "Your computed fatness is not a integer.")
+        feedback.finish(0, "fatness が integer ではありません.")
 
     height_cm = height / 100
     correct_bmi = weight / (height_cm * height_cm)
@@ -43,10 +43,10 @@ test_code: |
     err_fatness = abs(correct_fatness - fatness)/abs(correct_fatness)
 
     if err_bmi < 1e-7 and err_fatness < 1e-7:
-        feedback.finish(1, "Your computed c was correct.")
+        feedback.finish(1, "正解です。")
     elif err_bmi >= 1e-7 and err_fatness < 1e-7:
-        feedback.finish(0, "Your computed bmi was incorrect.")
+        feedback.finish(0, "bmi が間違っています。")
     elif err_bmi < 1e-7 and err_fatness >= 1e-7:
-        feedback.finish(0, "Your computed fatness was incorrect.")
+        feedback.finish(0, "fatness が間違っています。")
     else:
-        feedback.finish(0, "Your computed bmi and fatness was incorrect.")
+        feedback.finish(0, "bmi と fatness が間違っています。")
