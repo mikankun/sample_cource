@@ -263,18 +263,6 @@ groups:
     -
         {{ indented_include("questions/section3/3-desc.yml", 8) }}
 
-
-#    -
-#        {{ indented_include("questions/section4/4-desc.yml", 8) }}
-#    -
-#        {{ indented_include("questions/section5/5-desc.yml", 8) }}
-#    -
-#        {{ indented_include("questions/section6/6-desc.yml", 8) }}
-#    -
-#        {{ indented_include("questions/section8/8-desc.yml", 8) }}
-#    -
-#        {{ indented_include("questions/section9/9-desc.yml", 8) }}
-
 completion_text: |
 
     # See you in class!
