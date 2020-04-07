@@ -126,7 +126,7 @@ groups:
 
 -
     id: quiz_tail
-    shuffle: True
+    shuffle: False
     pages:
 
     -
@@ -260,10 +260,6 @@ groups:
         {{ indented_include("questions/section9/9-8.yml", 8) }}
     -
         {{ indented_include("questions/section9/9-9.yml", 8) }}
-    -
-        {{ indented_include("questions/section3/3-desc.yml", 8) }}
-    -
-        {{ indented_include("questions/non-ascii-choices.yml", 8) }}
 
 
 completion_text: |
