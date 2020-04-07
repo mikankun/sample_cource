@@ -126,7 +126,7 @@ groups:
 
 -
     id: quiz_tail
-    shuffle: False
+    shuffle: True
     pages:
 
     -
