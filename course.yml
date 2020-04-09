@@ -3,14 +3,14 @@ chunks:
 -
     title: "Table of Contents"
     id: welcome
-#    rules:
-#    -
-#        if_after: end_week 3
-#        if_before: 2038-01-01 13:00:00 -5
-#        weight: 100
-#
-#    -
-#        weight: 0
+    rules:
+    -
+       if_after: end_week 3
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+
+    -
+        weight: 0
 
     content: |
 
