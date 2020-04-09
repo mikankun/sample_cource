@@ -53,3 +53,22 @@ chunks:
         ### ドキュメント
 
         Pyrhon 演習は [こちら](flow:quiz-python).
+-
+    title: "Exam pointer"
+
+    id: exam_pointer
+    rules:
+    -
+        if_in_facility: test_center
+        if_after: 2015-06-01
+        weight: 200
+
+    -
+        shown: False
+        weight: 0
+
+    content: |
+
+        # Welcome to the computer-based testing facility!
+
+        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>
