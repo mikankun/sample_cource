@@ -33,7 +33,7 @@ pages:
 -
     type: Page
     id: exercise3
-    title: ipynb3
+    title: exercise3
     content: |
 
         [演習問題](flow/exercise3_index)
