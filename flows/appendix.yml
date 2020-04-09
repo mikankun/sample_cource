@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "付録"
 description: |
-    # 1. Pythonの特徴
+    # 付録
 
 rules:
     access:
@@ -14,9 +14,11 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: appendix
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
+
+        [クリックして表示](repocur:pdfs/Python_basic_overview_appendix.pdf)
 

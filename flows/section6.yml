@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "6. 関数"
 description: |
-    # 1. Pythonの特徴
+    # 6. 関数
 
 rules:
     access:
@@ -14,9 +14,26 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: pdf6
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
 
+        [クリックして表示](repocur:pdfs/Python_basic_overview_6.pdf)
+
+-
+    type: Page
+    id: ipynb6
+    title: ipynb6
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-6.ipynb") }}
+
+-
+    type: Page
+    id: exercise6
+    title: exercise6
+    content: |
+
+        [演習問題](flow:exercise6_index)

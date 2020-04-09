@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "8. ファイル入出力"
 description: |
-    # 1. Pythonの特徴
+    # 8. ファイル入出力
 
 rules:
     access:
@@ -14,9 +14,26 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: pdf8
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
 
+        [クリックして表示](repocur:pdfs/Python_basic_overview_8.pdf)
+
+-
+    type: Page
+    id: ipynb8
+    title: ipynb8
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-8.ipynb") }}
+
+-
+    type: Page
+    id: exercise8
+    title: exercise8
+    content: |
+
+        [演習問題](flow:exercise8_index)

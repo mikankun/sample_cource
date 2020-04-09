@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "7. モジュール"
 description: |
-    # 1. Pythonの特徴
+    # 7. モジュール
 
 rules:
     access:
@@ -14,9 +14,26 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: pdf7
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
 
+        [クリックして表示](repocur:pdfs/Python_basic_overview_7.pdf)
+
+-
+    type: Page
+    id: ipynb7
+    title: ipynb7
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-7.ipynb") }}
+
+-
+    type: Page
+    id: exercise7
+    title: exercise7
+    content: |
+
+        [演習問題](flow:exercise7_index)
