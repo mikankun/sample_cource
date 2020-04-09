@@ -15,6 +15,7 @@ pages:
 -
     type: Page
     id: pdf1
+    title: overview
     content: |
 
         [概要](repocur:pdfs/Python_basic_overview_1.pdf)
