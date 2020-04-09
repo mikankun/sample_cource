@@ -24,15 +24,7 @@ pages:
 
 -
     type: Page
-    id: ipynb1
-    title: ipynb1
-    content: |
-        {{ render_notebook_cells("ipynbs/Python-basic-3.ipynb") }}
-
-
--
-    type: Page
-    id: exercise3
+    id: ipynb3
     title: ipynb3
     content: |
 
