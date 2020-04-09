@@ -22,23 +22,23 @@ chunks:
         ## 3. Pythonの基本文法
         ### [ドキュメント](flow:lesson3)
         ### [演習](flow:exercise3_index)
-        ## 4.制御文
-        ### ドキュメント
+        ## 4. 制御文
+        ### [ドキュメント](flow:lesson4)
         ### [演習](flow:exercise4_index)
-        ## 5.複数データの扱い
-        ### ドキュメント
+        ## 5. 複数データの扱い
+        ### [ドキュメント](flow:lesson5)
         ### [演習](flow:exercise5_index)
-        ## 6.関数
-        ### ドキュメント
+        ## 6. 関数
+        ### [ドキュメント](flow:lesson6)
         ### [演習](flow:exercise6_index)
-        ## 7.モジュール
-        ### ドキュメント
+        ## 7. モジュール
+        ### [ドキュメント](flow:lesson7)
         ### [演習](flow:exercise7_index)
-        ## 8.ファイル入出力
-        ### ドキュメント
+        ## 8. ファイル入出力
+        ### [ドキュメント](flow:lesson8)
         ### [演習](flow:exercise8_index)
-        ## 9.クラス
-        ### ドキュメント
+        ## 9. クラス
+        ### [ドキュメント](flow:lesson9)
         ### [演習](flow:exercise9_index)
         ## 付録
         ### ドキュメント
