@@ -20,7 +20,7 @@ pages:
 
         #概要
 
-	{{ repocur:pdfs/Python_basic_overview_3.pdf }}
+	[クリックして表示](repocur:pdfs/Python_basic_overview_3.pdf)
 
 -
     type: Page
@@ -44,5 +44,5 @@ pages:
     title: ipynb3
     content: |
 
-        [演習]
+        [演習問題](flow/flow/exercise3_index)
 
