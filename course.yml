@@ -16,32 +16,40 @@ chunks:
 
         # Table of Contents
         ## 1. Pythonの特徴
-        ### 講義
-        ### 演習
+        講義
+        [演習](flow:quiz-python).演習
+
         ## 2. Pythonの基本
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 3. Pythonの基本文法
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 4.制御文
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 5.複数データの扱い
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 6.関数
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 7.モジュール
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 8.ファイル入出力
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
+
         ## 9.クラス
         ### 講義
-        ### 演習
+        [演習](flow:quiz-python).演習
 
         You can also jump directly to the [sample quiz](flow:quiz-test).
 
