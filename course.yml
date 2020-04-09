@@ -54,34 +54,3 @@ chunks:
 
         Pyrhon 演習は [こちら](flow:quiz-python).
 
-        <img src="repo:images/classroom.jpeg">
-
-        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
-
-        <div class="well" markdown="1">
-          *RELATE* <i class="fa fa-heart"></i>
-          <a href="https://djangoproject.com/"><img src="repo:images/django-logo.png"></a>.
-
-          (Note that all of this is sample content. RELATE does not clutter
-          your course page with information about itself.)
-        </div>
-
--
-    title: "Exam pointer"
-
-    id: exam_pointer
-    rules:
-    -
-        if_in_facility: test_center
-        if_after: 2015-06-01
-        weight: 200
-
-    -
-        shown: False
-        weight: 0
-
-    content: |
-
-        # Welcome to the computer-based testing facility!
-
-        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>
