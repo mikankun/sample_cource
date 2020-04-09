@@ -18,5 +18,15 @@ pages:
     title: overview1
     content: |
 
-        <H1>[概要](repocur:pdfs/Python_basic_overview_1.pdf)</H1>
+        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+
+
+-
+    type: Page
+    id: ipynb1
+    title: ipynb1
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-3.ipynb") }}
+
 
