@@ -1,0 +1,39 @@
+title: "9. クラス"
+description: |
+    # 9. クラス
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: pdf9
+    title: overview
+    content: |
+
+        #概要
+
+        [クリックして表示](repocur:pdfs/Python_basic_overview_9.pdf)
+
+-
+    type: Page
+    id: ipynb9
+    title: ipynb9
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-9.ipynb") }}
+
+-
+    type: Page
+    id: exercise9
+    title: exercise9
+    content: |
+
+        [演習問題](flow:exercise9_index)
