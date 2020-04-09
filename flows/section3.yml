@@ -36,5 +36,4 @@ pages:
     title: exercise3
     content: |
 
-        [演習問題](flow/exercise3_index)
-
+        [演習問題](flow:exercise3_index)
