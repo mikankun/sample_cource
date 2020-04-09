@@ -1,0 +1,21 @@
+title: "1. Pythonの特徴"
+description: |
+    # 1. Pythonの特徴
+
+rules:
+    access:
+    -
+        if_has_role: [student, ta, instructor]
+        permissions: [view]
+
+    grade_identifier: null
+
+pages:
+
+-
+    type: Page
+    id: pdf1
+    content: |
+
+        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+

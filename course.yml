@@ -14,32 +14,15 @@ chunks:
 
     content: |
 
-        # Table of Contents
-        ## 1. Pythonの特徴
-        ### ドキュメント
-        ## 2. Pythonの基本
-        ### ドキュメント
-        ## 3. Pythonの基本文法
-        ### [ドキュメント](flow:lesson3)
-        ### [演習](flow:exercise3_index)
-        ## 4. 制御文
-        ### [ドキュメント](flow:lesson4)
-        ### [演習](flow:exercise4_index)
-        ## 5. 複数データの扱い
-        ### [ドキュメント](flow:lesson5)
-        ### [演習](flow:exercise5_index)
-        ## 6. 関数
-        ### [ドキュメント](flow:lesson6)
-        ### [演習](flow:exercise6_index)
-        ## 7. モジュール
-        ### [ドキュメント](flow:lesson7)
-        ### [演習](flow:exercise7_index)
-        ## 8. ファイル入出力
-        ### [ドキュメント](flow:lesson8)
-        ### [演習](flow:exercise8_index)
-        ## 9. クラス
-        ### [ドキュメント](flow:lesson9)
-        ### [演習](flow:exercise9_index)
-        ## 付録
-        ### ドキュメント
+        # 内容
+        ## [1. Pythonの特徴](flow:section1)
+        ## [2. Pythonの基本](flow:section2)
+        ## [3. Pythonの基本文法](flow:section3)
+        ## [4. 制御文](flow:section4)
+        ## [5. 複数データの扱い](flow:section5)
+        ## [6. 関数](flow:section6)
+        ## [7. モジュール](flow:section7)
+        ## [8. ファイル入出力](flow:section8)
+        ## [9. クラス](flow:section9)
+        ## [付録](flow:appendix)
 
