@@ -1,7 +1,7 @@
 chunks:
 
 -
-    title: "Welcome to the sample course"
+    title: "Table of Contents"
     id: welcome
     rules:
     -
@@ -14,22 +14,45 @@ chunks:
 
     content: |
 
-        # ようこそ
+        # Table of Contents
+        ## 1. Pythonの特徴
+        ### ドキュメント
 
-        Check out the [linear algebra recap](flow:001-python-basic). Do it now. Do it.
+        ## 2. Pythonの基本
+        ### ドキュメント
 
-        You can also go there using a
-        <a href="flow:001-python-basic" role="button" class="btn btn-default">Bootstrap button</a>.
+        ## 3. Pythonの基本文法
+        ### ドキュメント
+        ### [演習](flow:exercise3_index)
 
-        You can also jump directly to the [sample quiz](flow:quiz-test).
+        ## 4.制御文
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
 
-        Look at the amazing embedded [PDF](repocur:pdfs/sample.pdf).
+        ## 5.複数データの扱い
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
 
-        In addition to interactive content, RELATE also supports [static (i.e.
-        non-interactive) pages](staticpage:test).
+        ## 6.関数
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
 
-        Remember, this image shows the model that RELATE is trying to put out
-        of business:
+        ## 7.モジュール
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
+
+        ## 8.ファイル入出力
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
+
+        ## 9.クラス
+        ### ドキュメント
+        ### [演習](flow:quiz-test)
+
+        ## 付録
+        ### ドキュメント
+
+        Pyrhon 演習は [こちら](flow:quiz-python).
 
         <img src="repo:images/classroom.jpeg">
 
