@@ -57,16 +57,6 @@ groups:
     -
         {{ indented_include("questions/section6/6-4.yml", 8) }}
     -
-        {{ indented_include("questions/section6/6-5.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-6.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-7.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-8.yml", 8) }}
-    -
-        {{ indented_include("questions/section6/6-9.yml", 8) }}
-    -
         {{ indented_include("questions/section6/6-desc.yml", 8) }}
 
 completion_text: |
