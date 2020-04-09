@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "2. Pythonの基本"
 description: |
-    # 1. Pythonの特徴
+    # 2. Pythonの基本
 
 rules:
     access:
@@ -14,9 +14,10 @@ pages:
 
 -
     type: Page
-    id: pdf1
-    title: overview
+    id: pdf2
+    title: overview2
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        [概要](repocur:pdfs/Python_basic_overview_2.pdf)
+
 
