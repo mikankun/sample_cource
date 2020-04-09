@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "5. 複数データの扱い"
 description: |
-    # 1. Pythonの特徴
+    # 5. 複数データの扱い
 
 rules:
     access:
@@ -14,9 +14,26 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: pdf5
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
 
+        [クリックして表示](repocur:pdfs/Python_basic_overview_5.pdf)
+
+-
+    type: Page
+    id: ipynb5
+    title: ipynb5
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-5.ipynb") }}
+
+-
+    type: Page
+    id: exercise5
+    title: exercise5
+    content: |
+
+        [演習問題](flow:exercise5_index)

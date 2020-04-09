@@ -1,6 +1,6 @@
-title: "1. Pythonの特徴"
+title: "4. 制御文"
 description: |
-    # 1. Pythonの特徴
+    # 4. 制御文
 
 rules:
     access:
@@ -14,9 +14,26 @@ pages:
 
 -
     type: Page
-    id: pdf1
+    id: pdf4
     title: overview
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
 
+        [クリックして表示](repocur:pdfs/Python_basic_overview_4.pdf)
+
+-
+    type: Page
+    id: ipynb4
+    title: ipynb4
+    content: |
+
+        {{ render_notebook_cells("ipynbs/Python-basic-4.ipynb") }}
+
+-
+    type: Page
+    id: exercise4
+    title: exercise4
+    content: |
+
+        [演習問題](flow:exercise4_index)
