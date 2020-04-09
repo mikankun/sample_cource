@@ -17,8 +17,6 @@ pages:
     id: lesson3
     content: |
 
-      # Ipython notebook render examples
-
       {{ render_notebook_cells("ipynbs/Python-basic-3.ipynb") }}
 
 completion_text: |
