@@ -1,6 +1,6 @@
 title: "Lesson 3"
 description: |
-    # 3. Pythonの基本文法
+    # 3.
 
 rules:
     access:
@@ -16,6 +16,8 @@ pages:
     type: Page
     id: lesson3
     content: |
+
+      # Pythonの基本文法
 
       {{ render_notebook_cells("ipynbs/Python-basic-3.ipynb") }}
 
