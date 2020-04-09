@@ -14,12 +14,16 @@ chunks:
 
     content: |
 
-        # 目次
-
-        ## Section 1
-        ## Section 1
-        ## Section 1
-        ## Section 1
+        # Table of Contents
+        ## 1. Pythonの特徴
+        ## 2. Pythonの基本
+        ## 3. Pythonの基本文法
+        ## 4.制御文
+        ## 5.複数データの扱い
+        ## 6.関数
+        ## 7.モジュール
+        ## 8.ファイル入出力
+        ## 9.クラス
 
 
         You can also go there using a
