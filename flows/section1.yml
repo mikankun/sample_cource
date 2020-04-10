@@ -18,6 +18,8 @@ pages:
     title: overview1
     content: |
 
-        [概要](repocur:pdfs/Python_basic_overview_1.pdf)
+        #概要
+
+        [クリックして表示](repocur:pdfs/Python_basic_overview_1.pdf)
 
 
