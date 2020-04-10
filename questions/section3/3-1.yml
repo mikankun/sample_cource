@@ -3,8 +3,6 @@ id: test_3_1
 access_rules:
     add_permissions:
         - change_answer
-        - see_answer_before_submission
-        - end_session
 value: 10
 prompt: |
 
