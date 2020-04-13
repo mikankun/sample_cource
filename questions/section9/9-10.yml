@@ -1,6 +1,6 @@
 type: InlineMultiQuestion
 id: test_9_10
-value: 10
+#value: 10
 prompt: |
 
     # 演習問題 9_10

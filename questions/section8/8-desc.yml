@@ -3,7 +3,7 @@ id: test_8_desc
 access_rules:
     add_permissions:
         - change_answer
-value: 1
+#value: 1
 timeout: 10
 prompt: |
 
