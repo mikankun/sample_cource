@@ -2,13 +2,13 @@ title: "3. Pythonの基本文法"
 description: |
     # 3. Pythonの基本文法
 
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
+#rules:
+#    access:
+#    -
+#        if_has_role: [student, ta, instructor]
+#        permissions: [view]
+#
+#    grade_identifier: null
 
 pages:
 

@@ -2,13 +2,13 @@ title: "6. 関数"
 description: |
     # 6. 関数
 
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
+#rules:
+#    access:
+#    -
+#        if_has_role: [student, ta, instructor]
+#        permissions: [view]
+#
+#    grade_identifier: null
 
 pages:
 

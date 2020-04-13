@@ -2,13 +2,13 @@ title: "4. 制御文"
 description: |
     # 4. 制御文
 
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
+#rules:
+#    access:
+#    -
+#        if_has_role: [student, ta, instructor]
+#        permissions: [view]
+#
+#    grade_identifier: null
 
 pages:
 

@@ -2,13 +2,13 @@ title: "8. ファイル入出力"
 description: |
     # 8. ファイル入出力
 
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
+#rules:
+#    access:
+#    -
+#        if_has_role: [student, ta, instructor]
+#        permissions: [view]
+#
+#    grade_identifier: null
 
 pages:
 

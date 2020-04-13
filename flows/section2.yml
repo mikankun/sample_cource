@@ -2,13 +2,13 @@ title: "2. Pythonの基本"
 description: |
     # 2. Pythonの基本
 
-rules:
-    access:
-    -
-        if_has_role: [student, ta, instructor]
-        permissions: [view]
-
-    grade_identifier: null
+#rules:
+#    access:
+#    -
+#        if_has_role: [student, ta, instructor]
+#        permissions: [view]
+#
+#    grade_identifier: null
 
 pages:
 
