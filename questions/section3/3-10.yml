@@ -3,7 +3,6 @@ id: test_3_10
 access_rules:
     add_permissions:
         - change_answer
-        - see_answer_before_submission
 #value: 10
 prompt: |
 
