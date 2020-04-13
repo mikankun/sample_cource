@@ -37,7 +37,7 @@ prompt: |
 
     $~~~~~~~~$ Title is Book_C
 
-    できあがったら submit してください。自動的に採点します。
+    できあがったら 送信 してください。自動的に採点します。
 
 names_from_user: [book_list, Book]
 

@@ -35,6 +35,7 @@ prompt: |
 
     $~~~~$ ・ 奇数のリスト(list_odd)： [55, 11, 43, 1]
 
+    できあがったら 送信 してください。自動的に採点します。
 
 names_from_user: [list0, list_even, list_odd]
 
