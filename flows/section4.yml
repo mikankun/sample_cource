@@ -14,6 +14,17 @@ pages:
 
 -
     type: Page
+    id: video4
+    title: intro
+    content: |
+
+        # Video
+
+        {% from "content-macros.jinja" import youtube %}
+        {{ youtube("Y3UqexhJB-s") }}
+
+-
+    type: Page
     id: pdf4
     title: overview
     content: |
