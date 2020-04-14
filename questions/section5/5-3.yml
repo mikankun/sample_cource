@@ -14,45 +14,44 @@ question: |
 
     　#リストのインデックスで指定
 
-    <~del=> list1[1]
+    [[blank1]]  list1[1]
 
     　##または
 
-    list1.[[blank0]] 
-
+    list1.[[blank1]] 
     
 
     　#リスト中の値で指定
 
-    list1.[[blank1]] 
+    list1.[[blank2]] 
 
     
 
     　#辞書のキーで指定
 
-    [[blank2]]  dict1['idx1']
+    [[blank3]]  dict1['idx1']
 
     　##または
 
-    dict1.[[blank3]] ('idx1')
+    dict1.[[blank4]] ('idx1')
 
     
 
     　#辞書の中身を全部削除
 
-    dict1.[[blank4]] ()
+    dict1.[[blank5]] ()
 
     
 
     　#セットの要素を削除
 
-    set1.[[blank5]] (3)
+    set1.[[blank6]] (3)
 
     
 
     　#セットの全部の要素を削除
 
-    set1.[[blank6]] ()
+    set1.[[blank7]] ()
 
     
 
@@ -65,47 +64,54 @@ answers:
 
     blank0:
         type: ShortAnswer
+        width: 4em
+        required: True
+        correct_answer:
+        - <plain> del
+
+    blank1:
+        type: ShortAnswer
         width: 7em
         required: True
         correct_answer:
         - <plain> pop(1)
 
-    blank1:
+    blank2:
         type: ShortAnswer
         width: 10em
         required: True
         correct_answer:
         - <plain> remove(0)
 
-    blank2:
+    blank3:
         type: ShortAnswer
         width: 4em
         required: True
         correct_answer:
         - <plain> del
 
-    blank3:
+    blank4:
         type: ShortAnswer
         width: 4em
         required: True
         correct_answer:
         - <plain> pop
 
-    blank4:
+    blank5:
         type: ShortAnswer
         width: 6em
         required: True
         correct_answer:
         - <plain> clear
 
-    blank5:
+    blank6:
         type: ShortAnswer
         width: 7em
         required: True
         correct_answer:
         - <plain> remove
 
-    blank6:
+    blank7:
         type: ShortAnswer
         width: 6em
         required: True

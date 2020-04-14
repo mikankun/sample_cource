@@ -32,5 +32,5 @@ answers:
         width: 15em
         required: True
         correct_answer:
-        - <plain> range(0,20,2)
+        - <plain> range(0, 20, 2)
 
