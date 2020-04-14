@@ -5,9 +5,9 @@ class Book:
         print ('Title is ', self.title)
         
 book_list = []
-book1 = book('Book_A')
-book2 = book('Book_B')
-book3 = book('Book_C')
+book1 = Book('Book_A')
+book2 = Book('Book_B')
+book3 = Book('Book_C')
 
 book_list.append(book1)
 book_list.append(book2)
