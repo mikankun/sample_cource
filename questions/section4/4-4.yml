@@ -18,6 +18,8 @@ question: |
 
     if age > 20:
 
+    $~~~~$## 何もしない
+
     $~~~~$[[blank0]] 
 
     else:
