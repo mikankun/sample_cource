@@ -14,7 +14,7 @@ question: |
 
     　## 10以下の偶数を出力する。
 
-    list1 = [i [[blank0]] ]
+    list1 = [i for i in range(11) [[blank0]] ]
 
     
 
@@ -27,8 +27,8 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 36em
+        width: 15em
         required: True
         correct_answer:
-        - <plain> for i in range(11) if i % 2 == 0
+        - <plain> if i % 2 == 0
 
