@@ -2,7 +2,7 @@ type: InlineMultiQuestion
 id: test_6_1
 access_rules:
     add_permissions:
-        - change_answer
+#        - change_answer
         - see_answer_after_submission
 #value: 10
 prompt: |
