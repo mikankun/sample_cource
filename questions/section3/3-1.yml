@@ -22,5 +22,5 @@ answers:
         width: 14em
         required: True
         correct_answer:
-        - <plain> Hello world!
+        - <regex>\s*Hello\s*world!\s*
 
