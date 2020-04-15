@@ -20,15 +20,18 @@ description: |
 
 rules:
     start:
+#    -
+#        if_before: end_week 1
+#        if_has_role: [student, ta, instructor]
+#        if_has_fewer_sessions_than: 4
+#        may_start_new_session: True
+#        may_list_existing_sessions: True
+#
+#    -
+#        may_start_new_session: False
+#        may_list_existing_sessions: True
     -
-        if_before: end_week 1
-        if_has_role: [student, ta, instructor]
-        if_has_fewer_sessions_than: 4
         may_start_new_session: True
-        may_list_existing_sessions: True
-
-    -
-        may_start_new_session: False
         may_list_existing_sessions: True
 
     access:
