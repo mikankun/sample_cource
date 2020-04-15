@@ -66,6 +66,8 @@ groups:
         {{ indented_include("questions/section8/8-8.yml", 8) }}
     -
         {{ indented_include("questions/section8/8-9.yml", 8) }}
+    -
+        {{ indented_include("questions/section8/8-desc.yml", 8) }}
 
 completion_text: |
 

@@ -39,14 +39,20 @@ data_files:
 
 show_setup_code: False
 setup_code: |
-    filename = data_files["question-data/8-desc_datafile.txt"]
-    #f = open(filename, 'r')
-    ### filename は BiteIO オブジェクトのため、
-    ### 上のコードは動きません。
-    f = filename
+    def open(filename, mode="r"):
+        try:
+            data = data_files[filename]
+        except KeyError:
+            raise IOError("file not found")
 
+        # 'data' is a 'bytes' object at this point.
 
-names_for_user: [filename, f]
+        from io import StringIO
+        return StringIO(data.decode("utf-8"))
+
+    filename = "question-data/8-desc_datafile.txt"
+
+names_for_user: [filename, open]
 
 names_from_user: [list0]
 
