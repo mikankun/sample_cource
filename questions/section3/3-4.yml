@@ -2,7 +2,7 @@ type: InlineMultiQuestion
 id: test_3_4
 access_rules:
     add_permissions:
-        - see_answer_after_submission
+        - change_answer
 prompt: |
 
     # 演習問題 3_4
