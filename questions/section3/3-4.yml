@@ -34,5 +34,5 @@ answers:
         required: True
         correct_answer:
         - <plain> /\s*[A-Z]+.*/
-        - <regex>[A-Z]+.*
+        - <regex>[A-Z]+[A-Z_]*
 
