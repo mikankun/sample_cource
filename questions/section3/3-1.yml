@@ -22,4 +22,5 @@ answers:
         width: 14em
         required: True
         correct_answer:
+        - <plain>Hello world!
         - <regex>Hello world!
