@@ -2,18 +2,15 @@ type: InlineMultiQuestion
 id: test_3_4
 access_rules:
     add_permissions:
-        - change_answer
-        - see_answer_before_submission
+        - see_answer_after_submission
 prompt: |
 
     # 演習問題 3_4
-    定数を作ってください
+    適切な語句をいれてください。
 
 question: |
 
-    [[blank0]]  = 3.1415926
-
-    print('円周率は',[[blank1]] ,'です。')
+    Pythonでは[[blank0]] は小文字とアンダーバー、[[blank1]] は大文字とアンダーバーをつかうのが推奨されています。
 
     
 
@@ -22,17 +19,17 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 15em
+        width: 3em
         required: True
         correct_answer:
-        - <plain> /\s*[A-Z]+.*/
-        - <regex>\s*[A-Z]+.*
+        - <plain> 変数
+        - <regex>\s*変数\s*
 
     blank1:
         type: ShortAnswer
-        width: 15em
+        width: 3em
         required: True
         correct_answer:
-        - <plain> /\s*[A-Z]+.*/
-        - <regex>[A-Z]+[A-Z_]*
+        - <plain> 定数
+        - <regex>\s*定数\s*
 
