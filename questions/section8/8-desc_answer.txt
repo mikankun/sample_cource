@@ -4,3 +4,5 @@ with open(filename, 'r') as f:
 list0 = []
 for line in lines:
     list0.append(line.strip())
+
+print(list0)
