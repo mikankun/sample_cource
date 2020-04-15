@@ -21,17 +21,17 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 3em
+        width: 15em
         required: True
         correct_answer:
-        - <plain> PI
-        - <regex>\s*PI\s*
+        - <plain> /\s*[A-Z]+.*/
+        - <regex>/\s*[A-Z]+.*/
 
     blank1:
         type: ShortAnswer
-        width: 3em
+        width: 15em
         required: True
         correct_answer:
-        - <plain> PI
-        - <regex>\s*PI\s*
+        - <plain> /\s*[A-Z]+.*/
+        - <regex>/\s*[A-Z]+.*/
 
