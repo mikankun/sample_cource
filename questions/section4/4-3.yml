@@ -34,5 +34,5 @@ answers:
         required: True
         correct_answer:
         - <plain> 10 <= num1 <= 99
-        - <regex>\.*
+        - <regex>.*
 
