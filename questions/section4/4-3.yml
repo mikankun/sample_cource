@@ -34,5 +34,5 @@ answers:
         required: True
         correct_answer:
         - <plain> 10 <= num1 <= 99
-        - <regex>\s*10\s*\<\=
+        - <regex>\s*10\s*<=\s*num1\s*<=\s*99\s*
 
