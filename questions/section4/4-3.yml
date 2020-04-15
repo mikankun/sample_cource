@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_4_3
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 4_3
@@ -35,4 +33,5 @@ answers:
         required: True
         correct_answer:
         - <plain> 10 <= num1 <= 99
+        - <regex> \s*10\s*<=\s*num1\s*<=\s*99\s*
 
