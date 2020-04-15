@@ -2,8 +2,7 @@ type: InlineMultiQuestion
 id: test_3_4
 access_rules:
     add_permissions:
-        - change_answer
-        - see_answer_before_submission
+        - see_answer_after_submission
 prompt: |
 
     # 演習問題 3_4
@@ -11,7 +10,7 @@ prompt: |
 
 question: |
 
-    Pythonでは[[blank0]] は小文字とアンダーバー、[[blank1]] は大文字とアンダーバーをつかうのが推奨されています。
+    Pythonでは[[blank0]] の名前には小文字とアンダーバー、[[blank1]] の名前には大文字とアンダーバーをつかうのが推奨されています。
 
     
 
