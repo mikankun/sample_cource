@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_4_9
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 4_9
@@ -45,6 +43,7 @@ answers:
         required: True
         correct_answer:
         - <plain> i % 5 == 0
+        - <regex>\s*i\s*%\s*5\s*==\s*0\s*
 
     blank1:
         type: ShortAnswer
@@ -52,4 +51,5 @@ answers:
         required: True
         correct_answer:
         - <plain> continue
+        - <regex>\s*continue\s*
 

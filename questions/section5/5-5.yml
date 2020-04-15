@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_5
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_5
@@ -29,4 +27,5 @@ answers:
         required: True
         correct_answer:
         - <plain> for i in range(20, 31)
+        - <regex>\s*for\s*i\s*in\s*range\(20,\s*31\)\s*
 

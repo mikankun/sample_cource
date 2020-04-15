@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_3_7
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 3_7
@@ -27,4 +25,5 @@ answers:
         required: True
         correct_answer:
         - <plain> str(num1 + num2)
+        - <regex>\s*str\(num1\s*\+\s*num2\)\s*
 

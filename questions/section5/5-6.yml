@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_6
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_6
@@ -31,4 +29,5 @@ answers:
         required: True
         correct_answer:
         - <plain> if i % 2 == 0
+        - <regex>\s*if\s*i\s*%\s*2\s*==\s*0\s*
 

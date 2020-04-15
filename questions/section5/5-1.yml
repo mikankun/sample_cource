@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_1
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_1
@@ -51,6 +49,7 @@ answers:
         required: True
         correct_answer:
         - <plain> [
+        - <regex>\s*\[\s*
 
     blank1:
         type: ShortAnswer
@@ -58,6 +57,7 @@ answers:
         required: True
         correct_answer:
         - <plain> ]
+        - <regex>\s*\]\s*
 
     blank2:
         type: ShortAnswer
@@ -65,6 +65,7 @@ answers:
         required: True
         correct_answer:
         - <plain> (
+        - <regex>\s*\(\s*
 
     blank3:
         type: ShortAnswer
@@ -72,6 +73,7 @@ answers:
         required: True
         correct_answer:
         - <plain> )
+        - <regex>\s*\)\s*
 
     blank4:
         type: ShortAnswer
@@ -79,6 +81,7 @@ answers:
         required: True
         correct_answer:
         - <plain> {
+        - <regex>\s*\{\s*
 
     blank5:
         type: ShortAnswer
@@ -86,6 +89,7 @@ answers:
         required: True
         correct_answer:
         - <plain> }
+        - <regex>\s*\}\s*
 
     blank6:
         type: ShortAnswer
@@ -93,6 +97,7 @@ answers:
         required: True
         correct_answer:
         - <plain> set([
+        - <regex>\s*set\(\[\s*
 
     blank7:
         type: ShortAnswer
@@ -100,6 +105,7 @@ answers:
         required: True
         correct_answer:
         - <plain> ])
+        - <regex>\s*\]\)\s*
 
     blank8:
         type: ShortAnswer
@@ -107,6 +113,7 @@ answers:
         required: True
         correct_answer:
         - <plain> set((
+        - <regex>\s*set\(\(\s*
 
     blank9:
         type: ShortAnswer
@@ -114,6 +121,7 @@ answers:
         required: True
         correct_answer:
         - <plain> ))
+        - <regex>\s*\)\)\s*
 
     blank10:
         type: ShortAnswer
@@ -121,6 +129,7 @@ answers:
         required: True
         correct_answer:
         - <plain> {
+        - <regex>\s*\{\s*
 
     blank11:
         type: ShortAnswer
@@ -128,4 +137,5 @@ answers:
         required: True
         correct_answer:
         - <plain> }
+        - <regex>\s*\}\s*
 

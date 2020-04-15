@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_3
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_3
@@ -19,6 +17,7 @@ question: |
     　##または
 
     list1.[[blank1]] 
+
     
 
     　#リスト中の最初に出てくる値0を削除
@@ -68,6 +67,7 @@ answers:
         required: True
         correct_answer:
         - <plain> del
+        - <regex>\s*del\s*
 
     blank1:
         type: ShortAnswer
@@ -75,6 +75,7 @@ answers:
         required: True
         correct_answer:
         - <plain> pop(1)
+        - <regex>\s*pop\(1\)\s*
 
     blank2:
         type: ShortAnswer
@@ -82,6 +83,7 @@ answers:
         required: True
         correct_answer:
         - <plain> remove(0)
+        - <regex>\s*remove\(0\)\s*
 
     blank3:
         type: ShortAnswer
@@ -89,6 +91,7 @@ answers:
         required: True
         correct_answer:
         - <plain> del
+        - <regex>\s*del\s*
 
     blank4:
         type: ShortAnswer
@@ -96,6 +99,7 @@ answers:
         required: True
         correct_answer:
         - <plain> pop
+        - <regex>\s*pop\s*
 
     blank5:
         type: ShortAnswer
@@ -103,6 +107,7 @@ answers:
         required: True
         correct_answer:
         - <plain> clear
+        - <regex>\s*clear\s*
 
     blank6:
         type: ShortAnswer
@@ -110,6 +115,7 @@ answers:
         required: True
         correct_answer:
         - <plain> remove
+        - <regex>\s*remove\s*
 
     blank7:
         type: ShortAnswer
@@ -117,4 +123,5 @@ answers:
         required: True
         correct_answer:
         - <plain> clear
+        - <regex>\s*clear\s*
 

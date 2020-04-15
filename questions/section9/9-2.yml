@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_9_2
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 9_2
@@ -59,6 +57,7 @@ answers:
         required: True
         correct_answer:
         - <plain> def __init__(self, name, age)
+        - <regex>\s*def\s*__init__\(self,\s*name,\s*age\)\s*
 
     blank1:
         type: ShortAnswer
@@ -66,6 +65,7 @@ answers:
         required: True
         correct_answer:
         - <plain> def getName(self)
+        - <regex>\s*def\s*getName\(self\)\s*
 
     blank2:
         type: ShortAnswer
@@ -73,6 +73,7 @@ answers:
         required: True
         correct_answer:
         - <plain> def getAge(self)
+        - <regex>\s*def\s*getAge\(self\)\s*
 
     blank3:
         type: ShortAnswer
@@ -80,4 +81,5 @@ answers:
         required: True
         correct_answer:
         - <plain> Child
+        - <regex>\s*Child\s*
 

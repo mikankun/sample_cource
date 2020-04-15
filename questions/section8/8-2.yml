@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_8_2
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 8_2
@@ -27,4 +25,5 @@ answers:
         required: True
         correct_answer:
         - <plain> with open('file1', 'w') as f
+        - <regex>\s*with\s*open\('file1',\s*'w'\)\s*as\s*f\s*
 

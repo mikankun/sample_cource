@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_3_6
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 3_6
@@ -31,6 +29,7 @@ answers:
         required: True
         correct_answer:
         - <plain> str1 * 3
+        - <regex>\s*str1\s*\*\s*3\s*
 
     blank1:
         type: ShortAnswer
@@ -38,4 +37,5 @@ answers:
         required: True
         correct_answer:
         - <plain> +=
+        - <regex>\s*\+=\s*
 

@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_8_1
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 8_1
@@ -45,6 +43,7 @@ answers:
         required: True
         correct_answer:
         - <plain> 'w'
+        - <regex>\s*'w'\s*
 
     blank1:
         type: ShortAnswer
@@ -52,6 +51,7 @@ answers:
         required: True
         correct_answer:
         - <plain> 'a'
+        - <regex>\s*'a'\s*
 
     blank2:
         type: ShortAnswer
@@ -59,4 +59,5 @@ answers:
         required: True
         correct_answer:
         - <plain> 'r'
+        - <regex>\s*'r'\s*
 

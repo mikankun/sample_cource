@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_8_8
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 8_8
@@ -59,6 +57,7 @@ answers:
         required: True
         correct_answer:
         - <plain> import csv
+        - <regex>\s*import\s*csv\s*
 
     blank1:
         type: ShortAnswer
@@ -66,6 +65,7 @@ answers:
         required: True
         correct_answer:
         - <plain> csv.writer(f)
+        - <regex>\s*csv\.writer\(f\)\s*
 
     blank2:
         type: ShortAnswer
@@ -73,6 +73,7 @@ answers:
         required: True
         correct_answer:
         - <plain> writer.writerow
+        - <regex>\s*writer\.writerow\s*
 
     blank3:
         type: ShortAnswer
@@ -80,4 +81,5 @@ answers:
         required: True
         correct_answer:
         - <plain> writer.writerows(products)
+        - <regex>\s*writer\.writerows\(products\)\s*
 

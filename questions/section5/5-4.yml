@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_4
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_4
@@ -49,6 +47,7 @@ answers:
         required: True
         correct_answer:
         - <plain> f in fruetes
+        - <regex>\s*f\s*in\s*fruetes\s*
 
     blank1:
         type: ShortAnswer
@@ -56,6 +55,7 @@ answers:
         required: True
         correct_answer:
         - <plain> f in reversed(fruetes)
+        - <regex>\s*f\s*in\s*reversed\(fruetes\)\s*
 
     blank2:
         type: ShortAnswer
@@ -63,4 +63,5 @@ answers:
         required: True
         correct_answer:
         - <plain> i, f in enumerate(fruetes)
+        - <regex>\s*i,\s*f\s*in\s*enumerate\(fruetes\)\s*
 

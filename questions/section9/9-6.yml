@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_9_6
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 9_6
@@ -39,6 +37,7 @@ answers:
         required: True
         correct_answer:
         - <plain> @staticmethod
+        - <regex>\s*@staticmethod\s*
 
     blank1:
         type: ShortAnswer
@@ -46,4 +45,5 @@ answers:
         required: True
         correct_answer:
         - <plain> def sample_static()
+        - <regex>\s*def\s*sample_static\(\)\s*
 

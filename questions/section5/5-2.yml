@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_2
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_2
@@ -41,6 +39,7 @@ answers:
         required: True
         correct_answer:
         - <plain> append
+        - <regex>\s*append\s*
 
     blank1:
         type: ShortAnswer
@@ -48,6 +47,7 @@ answers:
         required: True
         correct_answer:
         - <plain> insert
+        - <regex>\s*insert\s*
 
     blank2:
         type: ShortAnswer
@@ -55,4 +55,5 @@ answers:
         required: True
         correct_answer:
         - <plain> add
+        - <regex>\s*add\s*
 

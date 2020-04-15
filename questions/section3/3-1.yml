@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_3_1
 access_rules:
     add_permissions:
-        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 3_1
@@ -22,5 +20,6 @@ answers:
         width: 14em
         required: True
         correct_answer:
-        - <plain>Hello world!
+        - <plain> Hello world!
         - <regex>\s*Hello\s*world!\s*
+

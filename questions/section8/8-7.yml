@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_8_7
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 8_7
@@ -39,6 +37,7 @@ answers:
         required: True
         correct_answer:
         - <plain> import csv
+        - <regex>\s*import\s*csv\s*
 
     blank1:
         type: ShortAnswer
@@ -46,4 +45,5 @@ answers:
         required: True
         correct_answer:
         - <plain> for line in csv.reader(f)
+        - <regex>\s*for\s*line\s*in\s*csv\.reader\(f\)\s*
 

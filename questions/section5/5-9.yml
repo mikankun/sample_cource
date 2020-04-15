@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_5_9
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 5_9
@@ -51,6 +49,7 @@ answers:
         required: True
         correct_answer:
         - <plain> key in dict1
+        - <regex>\s*key\s*in\s*dict1\s*
 
     blank1:
         type: ShortAnswer
@@ -58,6 +57,7 @@ answers:
         required: True
         correct_answer:
         - <plain> value in dict1.values()
+        - <regex>\s*value\s*in\s*dict1\.values\(\)\s*
 
     blank2:
         type: ShortAnswer
@@ -65,4 +65,5 @@ answers:
         required: True
         correct_answer:
         - <plain> key, value in dict1.items()
+        - <regex>\s*key,\s*value\s*in\s*dict1\.items\(\)\s*
 

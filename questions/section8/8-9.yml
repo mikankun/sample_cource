@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_8_9
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 8_9
@@ -49,6 +47,7 @@ answers:
         required: True
         correct_answer:
         - <plain> try
+        - <regex>\s*try\s*
 
     blank1:
         type: ShortAnswer
@@ -56,6 +55,7 @@ answers:
         required: True
         correct_answer:
         - <plain> except FileNotFoundError
+        - <regex>\s*except\s*FileNotFoundError\s*
 
     blank2:
         type: ShortAnswer
@@ -63,4 +63,5 @@ answers:
         required: True
         correct_answer:
         - <plain> finally
+        - <regex>\s*finally\s*
 

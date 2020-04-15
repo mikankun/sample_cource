@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_9_4
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 9_4
@@ -37,6 +35,7 @@ answers:
         required: True
         correct_answer:
         - <plain> def say(self, msg)
+        - <regex>\s*def\s*say\(self,\s*msg\)\s*
 
     blank1:
         type: ShortAnswer
@@ -44,4 +43,5 @@ answers:
         required: True
         correct_answer:
         - <plain> taro = Person()
+        - <regex>\s*taro\s*=\s*Person\(\)\s*
 

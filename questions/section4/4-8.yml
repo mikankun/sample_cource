@@ -2,9 +2,7 @@ type: InlineMultiQuestion
 id: test_4_8
 access_rules:
     add_permissions:
-#        - change_answer
         - see_answer_after_submission
-#value: 10
 prompt: |
 
     # 演習問題 4_8
@@ -47,6 +45,7 @@ answers:
         required: True
         correct_answer:
         - <plain> num > 20
+        - <regex>\s*num\s*>\s*20\s*
 
     blank1:
         type: ShortAnswer
@@ -54,4 +53,5 @@ answers:
         required: True
         correct_answer:
         - <plain> break
+        - <regex>\s*break\s*
 
