@@ -18,7 +18,7 @@ pages:
     title: intro
     content: |
 
-        # Video
+        # ビデオ
 
         {% from "content-macros.jinja" import youtube %}
         {{ youtube("Y3UqexhJB-s") }}
