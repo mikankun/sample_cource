@@ -27,9 +27,9 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 17em
+        width: 39em
         required: True
         correct_answer:
-        - <plain> range(0, 20, 2)
-        - <regex>\s*range\(0,\s*20,\s*2\)\s*
+        - <plain> (range(2, 21, 2) or range(2, 22, 2))
+        - <regex>(range(2, 21, 2)|range(2, 22, 2))
 

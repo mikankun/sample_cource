@@ -2,8 +2,7 @@ type: InlineMultiQuestion
 id: test_3_5
 access_rules:
     add_permissions:
-        - change_answer
-        - see_answer_before_submission
+        - see_answer_after_submission
 prompt: |
 
     # 演習問題 3_5
@@ -29,7 +28,7 @@ answers:
         width: 4em
         required: True
         correct_answer:
-        - <plain>/('''|""")/
+        - <plain> ('''|""")
         - <regex>('''|""")
 
     blank1:
@@ -37,6 +36,6 @@ answers:
         width: 4em
         required: True
         correct_answer:
-        - <plain>/('''|""")/
+        - <plain> ('''|""")
         - <regex>('''|""")
 
