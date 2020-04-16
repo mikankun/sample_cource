@@ -32,5 +32,5 @@ answers:
         required: True
         correct_answer:
         - <plain> (range(2, 21, 2) or range(2, 22, 2))
-        - <regex>(range(2,\s*21,\s*2)|range(2,\s*22,\s*2))
+        - <regex>(range\s*\(\s*2\s*,\s*21\s*,\s*2\s*\)|range\s*\(\s*2\s*,\s*22\s*,\s*2\s*\))
 
