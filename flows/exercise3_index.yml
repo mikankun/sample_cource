@@ -44,7 +44,6 @@ rules:
     grading:
     -
 #        description : テスト
-        due: "2020-5-30"
         credit_percent: 100
 
 groups:
