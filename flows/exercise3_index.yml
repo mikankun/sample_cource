@@ -43,7 +43,8 @@ rules:
     grade_aggregation_strategy: use_latest
     grading:
     -
-        description : テスト
+#        description : テスト
+        due: 2020-5-30
         credit_percent: 100
 
 groups:
