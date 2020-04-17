@@ -12,7 +12,7 @@ question: |
 
     num1 = 10
 
-    numn2 = 20
+    num2 = 20
 
     print('2つの数の和は' + [[blank0]]  + 'です。')
 

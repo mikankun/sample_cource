@@ -25,17 +25,17 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 4em
+        width: 14em
         required: True
         correct_answer:
-        - <plain> ('''|""")
+        - <plain> (''' or """)
         - <regex>('''|""")
 
     blank1:
         type: ShortAnswer
-        width: 4em
+        width: 14em
         required: True
         correct_answer:
-        - <plain> ('''|""")
+        - <plain> (''' or """)
         - <regex>('''|""")
 
