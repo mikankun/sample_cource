@@ -41,9 +41,9 @@ rules:
 
     grade_identifier: exercise3
     grade_aggregation_strategy: use_latest
-
     grading:
     -
+        description : テスト
         credit_percent: 100
 
 groups:
