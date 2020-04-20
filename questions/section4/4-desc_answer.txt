@@ -7,5 +7,3 @@ elif bmi >= 18 and bmi < 25:
     fatness = 2
 else:
     fatness = 3
-
-

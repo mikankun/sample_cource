@@ -10,7 +10,7 @@ prompt: |
 
 question: |
 
-    　# num1 が10以上99以下なら正解とする
+    　# num1 が10以上99以下なら正解とする('and'を使わずに記述してください)
 
     if [[blank0]] :
 
@@ -29,9 +29,9 @@ answers:
 
     blank0:
         type: ShortAnswer
-        width: 18em
+        width: 19em
         required: True
         correct_answer:
-        - <plain> 10 <= num1 <= 99
-        - <regex>\s*10\s*<=\s*num1\s*<=\s*99\s*
+        - <plain> 10 <= num1 <= 99/
+        - <regex>\s*10\s*<=\s*num1\s*<=\s*99/\s*
 

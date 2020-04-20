@@ -1,47 +1,141 @@
 type: InlineMultiQuestion
-id: test_5_10
-#value: 10
+id: test_5_1
+access_rules:
+    add_permissions:
+        - see_answer_after_submission
 prompt: |
 
-    # 演習問題 5_10
-    1〜60までのランダムな数値の要素を10個持つリストを作成し、作成したリストから偶数の値のみを取り出したリスト、奇数の値のみを取り出したリストを新しく作成し、それぞれのリストの全ての要素を出力するプログラムを作成しなさい。
-    
-    ヒント
-    
-    ランダムな数値の作成には、プログラムの最初に
-    import random 
-    と宣言した上で、
-    random.randint(0,61)  # 戻り値が60以下のランダムな整数値
-    を使用してください。
-    
-    期待される結果
-    
-    元となるリスト： [55, 2, 12, 11, 43, 8, 54, 38, 1]
-    偶数のリスト： [2, 12, 8, 54, 38]
-    奇数のリスト： [55, 11, 43, 1]
-    
-    
-    (解答)
-    import random
-    
-    list = []
-    list2 = []
-    list3 = []
-    for num1 in range(1,10):
-        i = random.randint(0,61)
-        list.append(i)
-        if i % 2 == 0:
-            list2.append(i)
-        else:
-            list3.append(i)
-    print('元となるリスト：',list)
-    print('偶数のリスト：',list2)
-    print('奇数のリスト：',list3)
-    
-    
+    # 演習問題 5_1
+    初期化の構文の空欄をうめてください。
 
 question: |
 
+    　#リスト
+
+    list1 = [[blank0]] 1, 2, 3[[blank1]] 
+
+    
+
+    　#タプル
+
+    tuple1 = [[blank2]] 1, 2, 3[[blank3]] 
+
+    
+
+    　#辞書
+
+    dict1 = [[blank4]] 'idx1': 100, 'idx2': 200[[blank5]] 
+
+    
+
+    　#セット(リストから)
+
+    set1 = [[blank6]] 1, 2, 3[[blank7]] 
+
+    　##または(タプルから)
+
+    set1 = [[blank8]] 1, 2, 3[[blank9]] 
+
+    　##または(python3.6以降で有効な書き方)
+
+    set1 = [[blank10]] 1, 2, 3[[blank11]] 
+
 
 answers:
+
+    blank0:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> [
+        - <regex>\s*\[\s*
+
+    blank1:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> ]
+        - <regex>\s*\]\s*
+
+    blank2:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> (
+        - <regex>\s*\(\s*
+
+    blank3:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> )
+        - <regex>\s*\)\s*
+
+    blank4:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> {
+        - <regex>\s*\{\s*
+
+    blank5:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> }
+        - <regex>\s*\}\s*
+
+    blank6:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> set([
+        - <regex>\s*set\(\[\s*
+
+    blank7:
+        type: ShortAnswer
+        width: 3em
+        required: True
+        correct_answer:
+        - <plain> ])
+        - <regex>\s*\]\)\s*
+
+    blank8:
+        type: ShortAnswer
+        width: 6em
+        required: True
+        correct_answer:
+        - <plain> set((
+        - <regex>\s*set\(\(\s*
+
+    blank9:
+        type: ShortAnswer
+        width: 3em
+        required: True
+        correct_answer:
+        - <plain> ))
+        - <regex>\s*\)\)\s*
+
+    blank10:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> {
+        - <regex>\s*\{\s*
+
+    blank11:
+        type: ShortAnswer
+        width: 2em
+        required: True
+        correct_answer:
+        - <plain> }
+        - <regex>\s*\}\s*
 
