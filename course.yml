@@ -14,7 +14,7 @@ chunks:
 
     content: |
 
-        # 内容
+        # 学習内容
         ## [1. Pythonの特徴](flow:section1)
         ## [2. Pythonの基本](flow:section2)
         ## [3. Pythonの基本文法](flow:section3)
